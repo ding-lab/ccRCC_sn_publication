@@ -1,0 +1,2 @@
+gzip -c /Users/dinglab/Library/CloudStorage/Box-Box/Ding_Lab/Projects_Current/RCC/ccRCC_snRNA/Resources/Analysis_Results/annotate_barcode/format_34ccRCCsamples_barcode2celltype/20220330.v1/UMAPCoordinate.ClusterID.CellType.ByBarcode.tsv > snRNA.UMAPCoordinate.ClusterID.CellType.ByBarcode.tsv.gz
+gzip -c /Users/dinglab/Library/CloudStorage/Box-Box/Ding_Lab/Projects_Current/RCC/ccRCC_snRNA/Resources/snATAC_Processed_Data/Barcode_Annotation/28_snATAC.ManualReviwed.UMAP_data.20210709.tsv > snATAC.UMAPCoordinate.CellType.ByBarcode.tsv.gz
