@@ -1,0 +1,51 @@
+﻿No.,Hallmark Name,Process Category,Description,Number of Founder Sets,Number of Genes
+1,APICAL_JUNCTION,cellular component,apical junction complex consisting of adherens and tight junctions,37,200
+2,APICAL_SURFACE,cellular component,membrane proteins in the apical domain,12,44
+3,PEROXISOME,cellular component,peroxisomes,28,107
+4,ADIPOGENESIS,development,adipocyte development,36,200
+5,ANGIOGENESIS,development,blood vessel formation,14,36
+6,EPITHELIAL_MESENCHYMAL_TRANSITION,development,epithelial mesenchymal transition,107,200
+7,MYOGENESIS,development,muscle differentiation,64,200
+8,SPERMATOGENESIS,development,sperm development and male fertility,24,135
+9,PANCREAS_BETA_CELL,development,genes specific to pancreatic beta cells,24,40
+10,DNA_REPAIR,DNA damage,DNA repair,44,150
+11,UV_RESPONSE_DOWN,DNA damage,UV response: downregulated genes,17,144
+12,UV_RESPONSE_UP,DNA damage,UV response: upregulated genes,16,158
+13,ALLOGRAFT_REJECTION,immune,allograft rejection,190,200
+14,COAGULATION,immune,blood coagulation cascade,71,138
+15,COMPLEMENT,immune,complement cascade,71,200
+16,INTERFERON_ALPHA_RESPONSE,immune,interferon alpha response,82,97
+17,INTERFERON_GAMMA_RESPONSE,immune,interferon gamma response,82,200
+18,IL6_JAK_STAT3_SIGNALING,immune,IL6 STAT3 signaling during acute phase response,24,87
+19,INFLAMMATORY_RESPONSE,immune,inflammation,120,200
+20,BILE_ACID_METABOLISM,metabolic,biosynthesis of bile acids,28,112
+21,CHOLESTEROL_HOMEOSTASIS,metabolic,cholesterol homeostasis,28,74
+22,FATTY_ACID_METABOLISM,metabolic,fatty acid metabolism,53,158
+23,GLYCOLYSIS,metabolic,glycolysis and gluconeogenesis,87,200
+24,HEME_METABOLISM,metabolic,heme metabolism and erythroid lineage,36,200
+25,OXIDATIVE_PHOSPHORYLATION,metabolic,oxidative phosphorylation and citric acid cycle,93,200
+26,XENOBIOTIC_METABOLISM,metabolic,metabolism of xenobiotics,124,200
+27,APOPTOSIS,pathway,programmed cell death; caspase pathway,80,161
+28,HYPOXIA,pathway,response to hypoxia; HIF1A targets,87,200
+29,PROTEIN_SECRETION,pathway,protein secretion,74,96
+30,UNFOLDED_PROTEIN_RESPONSE,pathway,unfolded protein response; ER stress,22,113
+31,REACTIVE_OXYGEN_SPECIES_PATHWAY,pathway,reactive oxygen species pathway,13,49
+32,E2F_TARGETS,proliferation,cell cycle progression: E2F targets,420,200
+33,G2M_CHECKPOINT,proliferation,cell cycle progression: G2/M checkpoint,420,200
+34,MYC_TARGETS_V1,proliferation,"MYC targets, variant 1",404,200
+35,MYC_TARGETS_V2,proliferation,"MYC targets, variant 2",6,58
+36,P53_PATHWAY,proliferation,p53 pathway,85,200
+37,MITOTIC_SPINDLE,proliferation,cell cycle progression: mitotic spindle assembly,108,200
+38,ANDROGEN_RESPONSE,signaling,androgen response,8,117
+39,ESTROGEN_RESPONSE_EARLY,signaling,early estrogen response,61,200
+40,ESTROGEN_RESPONSE_LATE,signaling,late estrogen response,61,200
+41,IL2_STAT5_SIGNALING,immune,IL2 STAT5 signaling,13,200
+42,KRAS_SIGNALING_UP,signaling,"KRAS signaling, upregulated genes",14,200
+43,KRAS_SIGNALING_DN,signaling,"KRAS signaling, downregulated genes",16,200
+44,MTORC1_SIGNALING,signaling,mTORC1 signaling,487,200
+45,NOTCH_SIGNALING,signaling,Notch signaling,49,32
+46,PI3K_AKT_MTOR_SIGNALING,signaling,PI3K signaling via AKT to mTORC1,591,105
+47,HEDGEHOG_SIGNALING,signaling,Hedgehog signaling,79,36
+48,TGF_BETA_SIGNALING,signaling,TGF beta signaling,29,54
+49,TNFA_SIGNALING_VIA_NFKB,signaling,TNFA signaling via NFκB,132,200
+50,WNT_BETA_CATENIN_SIGNALING,signaling,canonical beta catenin pathway,49,42

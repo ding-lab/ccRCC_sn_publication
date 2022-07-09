@@ -1,0 +1,7 @@
+dir_input="/Users/dinglab/Library/CloudStorage/Box-Box/Ding_Lab/Projects_Current/RCC/ccRCC_snRNA/Resources/snRNA_Processed_Data/InferCNV/outputs/Individual.20200305.v1/"
+filename1="infercnv.14_HMM_predHMMi6.rand_trees.hmm_mode-subclusters.Pnorm_0.5.repr_intensities.observations.txt"
+filename2="infercnv.14_HMM_predHMMi6.rand_trees.hmm_mode-subclusters.Pnorm_0.5.repr_intensities.references.txt"
+while read aliquot; do
+	gzip -c ${dir_input}${aliquot}/${filename1} > ${aliquot}.${filename1}.gz
+	gzip -c ${dir_input}${aliquot}/${filename2} > ${aliquot}.${filename2}.gz
+done < aliquots2process.txt

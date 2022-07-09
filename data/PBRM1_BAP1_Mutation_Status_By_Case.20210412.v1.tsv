@@ -1,0 +1,105 @@
+ARID1A	BAP1	CSMD3	DNHD1	KCNMA1	KDM5C	MLLT10	MTOR	MUC4	NLRP12	PBRM1	PIK3CA	PTEN	RHEB	SETD2	SLITRK6	TET2	TP53	TSC1	TXNIP	VHL	YIPF3	ZNF536	Case	mutation_category_sim	mutation_category
+										p.R978*(0.26)				p.G988*(0.26)						p.V130F(0.26)			C3L-00004	PBRM1 mutated	PBRM1 mutated
+					p.C14W(0.47)															p.R161*(0.27)			C3L-00010	Non-mutants	Others
+	p.S473Wfs*95(0.5)				p.G384Afs*46(0.52)												p.R280I(0.46)			p.V155M(0.53)			C3L-00011	BAP1 mutated	BAP1 mutated
+														p.X1800_splice(0.27)						p.A149Cfs*25(0.42)			C3L-00026	Non-mutants	Others
+					p.Q139Sfs*95(0.31)					p.Y1186Sfs*8(0.085)		p.G132D(0.32)								p.P61Afs*69(0.58)			C3L-00079	PBRM1 mutated	PBRM1 mutated
+																				p.L89P(0.28)			C3L-00088	Non-mutants	Non-mutants
+																				p.L178P(0.33)			C3L-00096	Non-mutants	Non-mutants
+					p.X374_splice(0.38)															p.E70*(0.38)			C3L-00097	Non-mutants	Others
+		p.D1473Y(0.27)																		p.L85P(0.38)			C3L-00103	Non-mutants	Non-mutants
+							p.L2220F(0.2)			p.E367*(0.19)													C3L-00183	PBRM1 mutated	PBRM1 mutated
+																		p.Q743*(0.54)					C3L-00359	Non-mutants	Non-mutants
+																				p.R182Afs*72(0.16)			C3L-00360	Non-mutants	Non-mutants
+																				p.K171Sfs*31(0.72)			C3L-00369	Non-mutants	Non-mutants
+	p.P618Lfs*5(0.17)									p.T1088Rfs*9(0.05)				p.Y2547*(0.12)									C3L-00416	Both mutated	Both mutated
+										p.M347Ifs*6(0.23)										p.R82P(0.35)			C3L-00418	PBRM1 mutated	PBRM1 mutated
+																				p.C162Y(0.42)			C3L-00447	Non-mutants	Non-mutants
+																				p.Y185Tfs*17(0.4)			C3L-00448	Non-mutants	Non-mutants
+							p.I2501F(0.24)													p.H110P(0.35)			C3L-00561	Non-mutants	Non-mutants
+	p.S473Vfs*98(0.34)																			p.S139Ifs*5(0.23)		p.E155Q(0.18)	C3L-00581	BAP1 mutated	BAP1 mutated
+					p.R635Gfs*24(0.52)					p.V755D(0.42)										p.H115Y(0.43)			C3L-00583	PBRM1 mutated	PBRM1 mutated
+										p.A273E(0.25)										p.X155_splice(0.35)	p.L53P(0.24)		C3L-00606	PBRM1 mutated	PBRM1 mutated
+											p.E542K(0.094)					p.E184Lfs*24(0.26)							C3L-00607	Non-mutants	Non-mutants
+										p.E913Nfs*5(0.34)										p.W88R(0.42)			C3L-00610	PBRM1 mutated	PBRM1 mutated
+			p.H2584L(0.061)																				C3L-00766	Non-mutants	Non-mutants
+										p.Y417*(0.22)				p.Q1764*(0.11)						p.L101Cfs*58(0.13)			C3L-00790	PBRM1 mutated	PBRM1 mutated
+										p.I825Rfs*33(0.39)				p.P1633R(0.42)						p.F91Rfs*64(0.37)			C3L-00791	PBRM1 mutated	PBRM1 mutated
+p.Q1364*(0.3)	p.F170C(0.26)																			p.N141Mfs*18(0.33)			C3L-00792	BAP1 mutated	BAP1 mutated
+	p.F170L(0.25)																						C3L-00796	BAP1 mutated	BAP1 mutated
+										p.C1203Yfs*20(0.35)										p.E70*(0.33)			C3L-00799	PBRM1 mutated	PBRM1 mutated
+																				p.E55Gfs*77(0.28)			C3L-00800	Non-mutants	Non-mutants
+																				p.H115Q(0.25)			C3L-00812	Non-mutants	Non-mutants
+	p.D73*(0.13)																			p.R161*(0.22)			C3L-00813	BAP1 mutated	BAP1 mutated
+										p.C1232*(0.36)				p.G1986Vfs*20(0.055)	p.V473D(0.32)					p.S72P(0.35)			C3L-00814	PBRM1 mutated	PBRM1 mutated
+							p.A1519V(0.3)													p.R79Sfs*53(0.21)			C3L-00817	Non-mutants	Non-mutants
+																				p.L188P(0.29)			C3L-00902	Non-mutants	Non-mutants
+					p.P480L(0.49)					p.S14C(0.23)										p.L89P(0.31)			C3L-00907	PBRM1 mutated	PBRM1 mutated
+	p.G185E(0.19)									p.L680Pfs*6(0.13)										p.Q132*(0.21)			C3L-00908	Both mutated	Both mutated
+										p.Q1348Hfs*32(0.22)										p.V87Yfs*72(0.28)			C3L-00910	PBRM1 mutated	PBRM1 mutated
+																				p.X114_splice(0.23)			C3L-00917	Non-mutants	Non-mutants
+					p.Q560Hfs*12(0.052)					p.Q870*(0.091),p.Q869H(0.085),p.E572V(0.081),p.Q440*(0.15)										p.S111I(0.39)			C3L-01281	PBRM1 mutated	PBRM1 mutated
+												p.Y336*(0.2)											C3L-01283	Non-mutants	Non-mutants
+										p.S1511_S1514del(0.53)				p.E581*(0.36)									C3L-01286	PBRM1 mutated	PBRM1 mutated
+	p.T93A(0.069)																			p.N141Cfs*25(0.16)			C3L-01287	BAP1 mutated	BAP1 mutated
+																				p.V74D(0.48)			C3L-01288	Non-mutants	Non-mutants
+										p.S892Qfs*9(0.32)													C3L-01302	PBRM1 mutated	PBRM1 mutated
+	p.W52G(0.48)																			p.E94*(0.47)			C3L-01313	BAP1 mutated	BAP1 mutated
+														p.X2477_splice(0.31)	p.C31R(0.28)								C3L-01352	Non-mutants	Others
+					p.C1205*(0.085)															p.W88Afs*43(0.44)			C3L-01553	Non-mutants	Others
+										p.K96*(0.44)							p.S127Y(0.16)			p.X114_splice(0.31)			C3L-01557	PBRM1 mutated	PBRM1 mutated
+																				p.D121Y(0.38)			C3L-01560	Non-mutants	Non-mutants
+											p.C420_L422delinsW(0.18)									p.Y98N(0.34)			C3L-01603	Non-mutants	Non-mutants
+					p.T1228S(0.29),p.X1041_splice(0.079)					p.T1177P(0.19)										p.V130Tfs*28(0.17)			C3L-01607	PBRM1 mutated	PBRM1 mutated
+										p.X642_splice(0.28)							p.V203L(0.13)			p.G57Afs*11(0.26)			C3L-01836	PBRM1 mutated	PBRM1 mutated
+										p.F872_I875del(0.19)										p.R58Gfs*9(0.25)			C3L-01861	PBRM1 mutated	PBRM1 mutated
+										p.L1192*(0.13)										p.C77*(0.24)			C3L-01885	PBRM1 mutated	PBRM1 mutated
+										p.L776Ffs*2(0.25)										p.W117*(0.26)			C3N-00148	PBRM1 mutated	PBRM1 mutated
+	p.X686_splice(0.53)																			p.E94*(0.49)			C3N-00149	BAP1 mutated	BAP1 mutated
+							p.L1433S(0.19)			p.K959Mfs*12(0.23)										p.T124Hfs*35(0.37)			C3N-00154	PBRM1 mutated	PBRM1 mutated
+										p.G1451Wfs*58(0.08)										p.V137Cfs*7(0.28)			C3N-00168	PBRM1 mutated	PBRM1 mutated
+																				p.W117Gfs*42(0.16)			C3N-00177	Non-mutants	Non-mutants
+																				p.N90I(0.33)			C3N-00194	Non-mutants	Non-mutants
+					p.D1430Hfs*42(0.87)					p.R1095*(0.77)										p.H110_Y112dup(0.83)			C3N-00242	PBRM1 mutated	PBRM1 mutated
+										p.G883*(0.32)										p.G93V(0.45)			C3N-00244	PBRM1 mutated	PBRM1 mutated
+					p.R198*(0.61)														p.I296V(0.33)	p.E160Afs*13(0.59)			C3N-00246	Non-mutants	Others
+										p.E692*(0.11)										p.V155M(0.22)			C3N-00305	PBRM1 mutated	PBRM1 mutated
+		p.P1132Q(0.33)			p.P962Lfs*16(0.65)					p.E742Vfs*16(0.42)	p.H1047R(0.37)									p.X114_splice(0.56)			C3N-00310	PBRM1 mutated	PBRM1 mutated
+										p.N1227Mfs*17(0.42)										p.L135Ifs*9(0.34)			C3N-00312	PBRM1 mutated	PBRM1 mutated
+		p.R1041K(0.23)										p.Y46N(0.39),p.X343_splice(0.16)											C3N-00313	Non-mutants	Non-mutants
+		p.P1357A(0.14)			p.K40Nfs*33(0.48)				p.M497I(0.2)	p.L940Sfs*68(0.34)				p.E361*(0.23)									C3N-00314	PBRM1 mutated	PBRM1 mutated
+																				p.R161P(0.12)			C3N-00315	Non-mutants	Non-mutants
+	p.L183Sfs*10(0.17)																			p.R200Afs*55(0.2)			C3N-00317	BAP1 mutated	BAP1 mutated
+							p.C1483R(0.32)			p.K484*(0.43)							p.R273C(0.13)			p.X114_splice(0.39)			C3N-00320	PBRM1 mutated	PBRM1 mutated
+										p.M706Wfs*8(0.36)										p.S65L(0.21)			C3N-00380	PBRM1 mutated	PBRM1 mutated
+																				p.V170Afs*32(0.3)			C3N-00390	Non-mutants	Non-mutants
+											p.H1047R(0.16)								p.C49G(0.15)				C3N-00435	Non-mutants	Non-mutants
+	p.S113Tfs*70(0.23)													p.D909E(0.35)						p.L140Pfs*19(0.31)			C3N-00437	BAP1 mutated	BAP1 mutated
+				p.C249F(0.19)						p.M248T(0.13)				p.I2319Lfs*34(0.21)						p.W88R(0.15)			C3N-00491	PBRM1 mutated	PBRM1 mutated
+																	p.R267W(0.66)						C3N-00492	Non-mutants	Non-mutants
+										p.I561Tfs*8(0.51)										p.V155L(0.39)			C3N-00494	PBRM1 mutated	PBRM1 mutated
+		p.T2408M(0.14)			p.K788Sfs*7(0.44)			p.S4729Qfs*43(0.13)												p.T124P(0.34)			C3N-00495	Non-mutants	Others
+		p.P1408T(0.19)																		p.W88*(0.31)			C3N-00573	Non-mutants	Non-mutants
+						p.C191Y(0.23)				p.X1453_splice(0.5)													C3N-00577	PBRM1 mutated	PBRM1 mutated
+	p.N2I(0.073)												p.Y35C(0.15)										C3N-00646	BAP1 mutated	BAP1 mutated
+										p.E932*(0.18)										p.X114_splice(0.22)			C3N-00733	PBRM1 mutated	PBRM1 mutated
+		p.D2344N(0.23)																					C3N-00831	Non-mutants	Non-mutants
+												p.D24H(0.66)											C3N-00832	Non-mutants	Non-mutants
+																				p.R58_V66del(0.4)			C3N-00834	Non-mutants	Non-mutants
+					p.D517Y(0.74)					p.X481_splice(0.61)										p.T157Lfs*2(0.56)			C3N-00852	PBRM1 mutated	PBRM1 mutated
+	p.K337*(0.24)																			p.W117Lfs*15(0.19)			C3N-00953	BAP1 mutated	BAP1 mutated
+																	p.R306*(0.56)						C3N-01175	Non-mutants	Non-mutants
+							p.L2230V(0.29)	p.P3984R(0.17)												p.X155_splice(0.36)			C3N-01176	Non-mutants	Non-mutants
+																				p.R177Dfs*25(0.35)			C3N-01178	Non-mutants	Non-mutants
+										p.Y1122*(0.28)										p.X114_splice(0.27)			C3N-01179	PBRM1 mutated	PBRM1 mutated
+	p.T254Dfs*30(0.3)	p.D3083E(0.14)																		p.E204Hfs*50(0.22)			C3N-01200	BAP1 mutated	BAP1 mutated
+										p.I223Nfs*2(0.22)				p.F1679Sfs*26(0.051)						(0.14)		p.P449S(0.18)	C3N-01213	PBRM1 mutated	PBRM1 mutated
+	p.Q436*(0.075)																			p.H208Dfs*45(0.058)			C3N-01214	BAP1 mutated	BAP1 mutated
+			p.N840K(0.15)											p.X1572_splice(0.24)									C3N-01220	Non-mutants	Others
+		p.P2820S(0.19)			p.R68Pfs*6(0.056)					p.X1454_splice(0.42)										p.S65L(0.35)			C3N-01261	PBRM1 mutated	PBRM1 mutated
+																				p.Y98Tfs*61(0.37)			C3N-01361	Non-mutants	Non-mutants
+					p.R332*(0.67)					p.K225*(0.53)				p.S296Lfs*5(0.61)	p.S712N(0.42)								C3N-01522	PBRM1 mutated	PBRM1 mutated
+																				p.S111N(0.45)			C3N-01524	Non-mutants	Non-mutants
+	p.Q28_V29delinsL(0.3)	p.G1278R(0.13)																					C3N-01646	BAP1 mutated	BAP1 mutated
+				p.A31G(0.28)	p.R694*(0.48)				p.R451C(0.11)	p.S514Rfs*3(0.32)										p.N131I(0.27)			C3N-01649	PBRM1 mutated	PBRM1 mutated
+					p.R681*(0.57)							p.D92Y(0.34)		p.L1738*(0.36)						p.W88S(0.24)			C3N-01651	Non-mutants	Others

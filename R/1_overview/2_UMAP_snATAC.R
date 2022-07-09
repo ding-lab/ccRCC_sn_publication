@@ -23,12 +23,11 @@ for (pkg_name_tmp in packages) {
   }
   library(package = pkg_name_tmp, character.only = T)
 }
-## set working directory
-dir_base = "~/Library/CloudStorage/Box-Box/Ding_Lab/Projects_Current/RCC/ccRCC_snRNA/Submissions/ccRCC_sn_publication/"
-setwd(dir_base)
+## set working directory to current file location
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # input -------------------------------------------------------------------
-plot_data_df <- fread(data.table = F, input = "./data/snATAC.UMAPCoordinate.CellType.ByBarcode.tsv.gz")
+plot_data_df <- fread(data.table = F, input = "../../data/snATAC.UMAPCoordinate.CellType.ByBarcode.tsv.gz")
 
 # process data ------------------------------------------------------------
 plot_data_df <- plot_data_df %>%

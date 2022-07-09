@@ -1,0 +1,35 @@
+﻿Cytoband,CNV_Type,Gene_Symbol,PMID,Inclusion_Criteria,Comment,Chromosome,Arm
+3p26.1,Loss,VHL,23792563,Known_Pathogenic_Target,,3,p
+3p21.31,Loss,SETD2,23792563,Known_Pathogenic_Target,,3,p
+3p21.1,Loss,BAP1,23792563,Known_Pathogenic_Target,,3,p
+3p21.1,Loss,PBRM1,23792563,Known_Pathogenic_Target,,3,p
+5q35.3,Gain,SQSTM1,24332042,Known_Pathogenic_Target,,5,q
+5q35.3,Gain,RACK1,24332042,Candidate_Pathogenic_Target,,5,q
+14q23.2,Loss,HIF1A,22037472,Known_Pathogenic_Target,,14,q
+3p14.2,Loss,FHIT,"23792563, 23797736",Candidate_Pathogenic_Target,,3,p
+3p12.1,Loss,CADM2,23792563,Candidate_Pathogenic_Target,,3,p
+5q35.2,Gain,FGFR4,23797736,Candidate_Pathogenic_Target,,5,q
+5q13.3,Gain,GOLPH3,31923397,Candidate_Pathogenic_Target,,5,q
+10q23.31 ,Loss,PTEN,23792563,Candidate_Pathogenic_Target,,10,q
+13q14.2,Loss,RB1,23792563,Known_Pathogenic_Target,,13,q
+14q11.2,Loss,NDRG2,16103061,Candidate_Pathogenic_Target,,14,q
+14q24.3,Loss,NRXN3,23792563,Candidate_Pathogenic_Target,,14,q
+14q32.2,Loss,YY1,31923397,Candidate_Pathogenic_Target,"a stabilizer of HIF-1a, co-repressor of HIF-2a activity, and inhibitor of MYC function (Austen et al., 1998; Petrella and Brinckerhoff, 2009; Wu et al., 2013). The latter observation sug- gests a mechanism whereby YY1 loss links the HIF-2a signaling with MYC expression in ccRCC (Gordan et al., 2008",14,q
+15q26.1,Gain,IDH2,23792563,Candidate_Pathogenic_Target,,15,q
+1p31.1,Loss,NEGR1,23792563,Candidate_Pathogenic_Target,,1,p
+1p36.11,Loss,ARID1A,23797736,Candidate_Pathogenic_Target,,1,p
+1q23.3,Gain,PBX1,23797736,Candidate_Pathogenic_Target,,1,q
+1q32.1,Gain,MDM4,23792563,Candidate_Pathogenic_Target,,1,q
+2q36.2,Loss,CUL3,23797736,Candidate_Pathogenic_Target,,2,q
+3q26.2,Gain,MECOM,23792563,Candidate_Pathogenic_Target,,3,q
+3q26.2,Gain,PRKCI,23792563,Candidate_Pathogenic_Target,,3,q
+4q24,Loss,TET2,23797736,Candidate_Pathogenic_Target,,4,q
+6q25.2,Loss,ARID1B,23797736,Candidate_Pathogenic_Target,,6,q
+6q26,Loss,QKI,23792563,Candidate_Pathogenic_Target,,6,q
+7p15.3,Gain,OSBPL3,31923397,Candidate_Pathogenic_Target,,7,p
+8q21.11,Loss,ELOC,23797736,Candidate_Pathogenic_Target,,8,q
+8q24.22,Gain,MYC,23792563,Known_Pathogenic_Target,,8,q
+9p21.3,Loss,CDKN2A,23792563,Known_Pathogenic_Target,,9,p
+9p21.3,Loss,CDKN2B,23797736,Candidate_Pathogenic_Target,,9,p
+9p24.1,Gain,JAK2,23792563,Candidate_Pathogenic_Target,,9,p
+9p24.1,Loss,PTPRD,23792563,Candidate_Pathogenic_Target,,9,p

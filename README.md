@@ -5,3 +5,5 @@ The files are organised into three folders:
 data: which contains all the genomic and transcriptomic data required to perform the analyses described in the paper
 R: contains the R code to reproduce all analyses
 resources: contains additional databases (eg gene lists) which are required by the R scripts. 
+
+To reproduce the main figures, must download the supplemental data and run the script in R Studio.
