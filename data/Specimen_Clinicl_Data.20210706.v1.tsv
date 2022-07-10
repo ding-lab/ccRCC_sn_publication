@@ -1,0 +1,1313 @@
+Case	Sample	Sample_Type	Tissue_Type	Aliquot.snRNA	Aliquot.bulk	Aliquot.snRNA.WU	discovery_study	confirmatory_study	snRNA_available	snATAC_available	Histologic_Type	Histologic_Type_Of_Normal_Tissue	Histologic_Grade_CPTAC	Histologic_Grade	Histologic_Grade_Description
+C3L-00004	C3L-00004-01	Tumor	tumor	CPT0001540013	CPT0001540009	C3L-00004-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00004	C3L-00004-06	Normal	normal	CPT0001550002	CPT0001550001	C3L-00004-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex and medulla, minimal histopathology	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00004	C3L-00004-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00010	C3L-00010-01	Tumor	tumor	CPT0001220012	CPT0001220008	C3L-00010-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00010	C3L-00010-06	Normal	normal	CPT0001230002	CPT0001230001	C3L-00010-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	kidney, cortex and medulla and pelvis	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00010	C3L-00010-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00011	C3L-00011-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00011	C3L-00011-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla and pelvis	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00011	C3L-00011-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00026	C3L-00026-01	Tumor	tumor	CPT0001500003	CPT0001500009	C3L-00026-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00026	C3L-00026-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	kidney, renal cortex section without histopathology	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00026	C3L-00026-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00079	C3L-00079-01	Tumor	tumor	CPT0001260013	CPT0001260009	C3L-00079-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00079	C3L-00079-06	Normal	normal	CPT0001270002	CPT0001270001	C3L-00079-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	kidney	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00079	C3L-00079-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00088	C3L-00088-01	Tumor	tumor	CPT0000870003	CPT0000870016	C3L-00088-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00088	C3L-00088-02	Tumor	tumor	CPT0000880001	NA	C3L-00088-T2	No	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00088	C3L-00088-06	Normal	normal	CPT0000890002	CPT0000890001	C3L-00088-N	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	RENAL CORTEX AND MEDULLA	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00088	C3L-00088-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00096	C3L-00096-01	Tumor	tumor	CPT0001180011	CPT0001180009	C3L-00096-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00096	C3L-00096-06	Normal	normal	CPT0001190013	CPT0001190001	C3L-00096-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex and medulla,	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00096	C3L-00096-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00097	C3L-00097-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00097	C3L-00097-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	RENAL CORTEX	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00097	C3L-00097-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00103	C3L-00103-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00103	C3L-00103-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00103	C3L-00103-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00103	C3L-00103-06	Normal	normal	CPT0000660002	CPT0000660001	C3L-00103-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex with associated capsule;	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00103	C3L-00103-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00165	C3L-00165-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00165	C3L-00165-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla, pelvis	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00165	C3L-00165-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00165	C3L-00165-04	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex , medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00165	C3L-00165-05	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00165	C3L-00165-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal medulla and pelvis	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00165	C3L-00165-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00165	C3L-00165-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00183	C3L-00183-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00183	C3L-00183-02	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00183	C3L-00183-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00183	C3L-00183-04	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00183	C3L-00183-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00183	C3L-00183-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00183	C3L-00183-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00183	C3L-00183-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00359	C3L-00359-01	Tumor	tumor	CPT0002270013	CPT0002270011	C3L-00359-T1	Yes	No	TRUE	FALSE	non-Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-00359	C3L-00359-02	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-00359	C3L-00359-03	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-00359	C3L-00359-06	NA	normal	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	renal cortex with marked sclerosis and parenchymal loss, renal pelvis with transitional epithelium lining,  one focus of tumor 1.5 mm in greatest dimension	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-00359	C3L-00359-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00360	C3L-00360-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00360	C3L-00360-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00360	C3L-00360-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	kidney cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00360	C3L-00360-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00369	C3L-00369-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00369	C3L-00369-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00369	C3L-00369-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00369	C3L-00369-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00369	C3L-00369-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00416	C3L-00416-01	Tumor	tumor	CPT0010100001	NA	C3L-00416-T2	No	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00416	C3L-00416-02	Tumor	tumor	CPT0010110013	CPT0010110003	C3L-00416-T1	Yes	No	TRUE	FALSE	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00416	C3L-00416-06	Normal	normal	CPT0010120013	CPT0010120001	C3L-00416-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00416	C3L-00416-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00418	C3L-00418-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00418	C3L-00418-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00418	C3L-00418-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00418	C3L-00418-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00418	C3L-00418-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00447	C3L-00447-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00447	C3L-00447-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00447	C3L-00447-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00447	C3L-00447-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00447	C3L-00447-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00448	C3L-00448-01	Tumor	tumor	CPT0010160004	CPT0010160003	C3L-00448-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00448	C3L-00448-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00448	C3L-00448-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00561	C3L-00561-01	Tumor	tumor	CPT0023350004	CPT0023350003	C3L-00561-T1	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00561	C3L-00561-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00561	C3L-00561-06	Normal	normal	CPT0023360013	CPT0023360001	C3L-00561-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex,medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00561	C3L-00561-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00581	C3L-00581-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00581	C3L-00581-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00581	C3L-00581-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00581	C3L-00581-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00581	C3L-00581-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00583	C3L-00583-01	Tumor	tumor	CPT0019130004	CPT0019130003	C3L-00583-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00583	C3L-00583-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00583	C3L-00583-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00583	C3L-00583-06	Normal	normal	CPT0019160002	CPT0019160001	C3L-00583-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00583	C3L-00583-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00606	C3L-00606-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00606	C3L-00606-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00606	C3L-00606-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00606	C3L-00606-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00606	C3L-00606-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00607	C3L-00607-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00607	C3L-00607-02	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00607	C3L-00607-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00608	C3L-00608-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3L-00608	C3L-00608-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	adipose only, no kidney present	GX	NAT	Cannot be assessed
+C3L-00608	C3L-00608-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00610	C3L-00610-01	Tumor	tumor	CPT0025110004	CPT0025110003	C3L-00610-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00610	C3L-00610-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose and minimal fibroconnective tissue	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00610	C3L-00610-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00610	C3L-00610-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00765	C3L-00765-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00765	C3L-00765-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose and scattered blood vessels	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00765	C3L-00765-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00765	C3L-00765-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00766	C3L-00766-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00766	C3L-00766-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose and scant connective tissue	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00766	C3L-00766-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00789	C3L-00789-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00789	C3L-00789-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipsoe and connective tissue	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00789	C3L-00789-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00789	C3L-00789-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00790	C3L-00790-01	Tumor	tumor	CPT0065690004	CPT0065690003	C3L-00790-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00790	C3L-00790-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00790	C3L-00790-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00790	C3L-00790-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00791	C3L-00791-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00791	C3L-00791-02	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00791	C3L-00791-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00791	C3L-00791-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00792	C3L-00792-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00792	C3L-00792-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose only	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00792	C3L-00792-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00792	C3L-00792-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00795	C3L-00795-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3L-00795	C3L-00795-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	ADIPOSE TISSUE ONLY, NO KIDNEY PRESENT	GX	NAT	Cannot be assessed
+C3L-00795	C3L-00795-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00795	C3L-00795-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00796	C3L-00796-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00796	C3L-00796-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose, lypmphoproliferative tissue and fibrosis.  Can not rule out isolated tumor cells	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00796	C3L-00796-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00796	C3L-00796-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00799	C3L-00799-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00799	C3L-00799-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose and connective tissue	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00799	C3L-00799-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00799	C3L-00799-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00800	C3L-00800-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00800	C3L-00800-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose and connective tissue	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00800	C3L-00800-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00800	C3L-00800-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00812	C3L-00812-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00812	C3L-00812-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose tissue, connective tissue	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00812	C3L-00812-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00812	C3L-00812-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00813	C3L-00813-01	Tumor	tumor	CPT0015810004	CPT0015810003	C3L-00813-T1	Yes	No	TRUE	FALSE	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00813	C3L-00813-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	clear cell renal carcinoma, 80% tumor cellularity	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00813	C3L-00813-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00813	C3L-00813-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00814	C3L-00814-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00814	C3L-00814-02	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex , focal moderate lympoctyes	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00814	C3L-00814-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00814	C3L-00814-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00815	C3L-00815-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00815	C3L-00815-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose tissue	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00815	C3L-00815-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00815	C3L-00815-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00817	C3L-00817-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00817	C3L-00817-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose, fibro-connective tissue	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00817	C3L-00817-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00817	C3L-00817-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00902	C3L-00902-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-00902	C3L-00902-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-00902	C3L-00902-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-00902	C3L-00902-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00907	C3L-00907-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00907	C3L-00907-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00907	C3L-00907-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00907	C3L-00907-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00907	C3L-00907-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00908	C3L-00908-01	Tumor	tumor	CPT0086350004	CPT0086360003	C3L-00908-T1	No	Yes	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00908	C3L-00908-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00908	C3L-00908-06	Normal	normal	CPT0086370004	CPT0086370003	C3L-00908-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00908	C3L-00908-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00910	C3L-00910-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00910	C3L-00910-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00910	C3L-00910-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla and pelvis	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00910	C3L-00910-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00917	C3L-00917-01	Tumor	tumor	CPT0023690004	CPT0023690003	C3L-00917-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00917	C3L-00917-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00917	C3L-00917-06	Normal	normal	CPT0023710002	CPT0023710001	C3L-00917-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00917	C3L-00917-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00966	C3L-00966-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00966	C3L-00966-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00966	C3L-00966-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00966	C3L-00966-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00966	C3L-00966-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00966	C3L-00966-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00966	C3L-00966-07	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00966	C3L-00966-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00966	C3L-00966-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00968	C3L-00968-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00968	C3L-00968-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00968	C3L-00968-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00968	C3L-00968-04	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00968	C3L-00968-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00968	C3L-00968-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	normal morphology kidney but with oncocytic lesion	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00968	C3L-00968-07	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00968	C3L-00968-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00968	C3L-00968-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00969	C3L-00969-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00969	C3L-00969-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00969	C3L-00969-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00969	C3L-00969-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00969	C3L-00969-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00969	C3L-00969-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	kidney cortex, medulla with glomerulonephritis	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00969	C3L-00969-07	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00969	C3L-00969-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00969	C3L-00969-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00970	C3L-00970-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00970	C3L-00970-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00970	C3L-00970-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00970	C3L-00970-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00970	C3L-00970-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00970	C3L-00970-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	kidney cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00970	C3L-00970-07	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	kidney cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-00970	C3L-00970-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00970	C3L-00970-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00976	C3L-00976-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00976	C3L-00976-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00976	C3L-00976-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00976	C3L-00976-08	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-00976	C3L-00976-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00976	C3L-00976-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00980	C3L-00980-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00980	C3L-00980-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex , medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00980	C3L-00980-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00980	C3L-00980-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00981	C3L-00981-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00981	C3L-00981-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00981	C3L-00981-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00981	C3L-00981-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00982	C3L-00982-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00982	C3L-00982-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00982	C3L-00982-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00982	C3L-00982-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00982	C3L-00982-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla, fragent of pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00982	C3L-00982-07	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00982	C3L-00982-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00982	C3L-00982-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00991	C3L-00991-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00991	C3L-00991-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00991	C3L-00991-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00991	C3L-00991-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00991	C3L-00991-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00991	C3L-00991-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-00991	C3L-00991-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-00991	C3L-00991-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01033	C3L-01033-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01033	C3L-01033-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01033	C3L-01033-05	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01033	C3L-01033-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01034	C3L-01034-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01034	C3L-01034-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01034	C3L-01034-05	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	full thickness crossection kidney	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01034	C3L-01034-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01102	C3L-01102-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01102	C3L-01102-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01102	C3L-01102-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01102	C3L-01102-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01106	C3L-01106-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01106	C3L-01106-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01106	C3L-01106-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01106	C3L-01106-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01107	C3L-01107-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01107	C3L-01107-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01107	C3L-01107-07	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01107	C3L-01107-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01279	C3L-01279-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01279	C3L-01279-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01279	C3L-01279-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01279	C3L-01279-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01279	C3L-01279-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01281	C3L-01281-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01281	C3L-01281-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01281	C3L-01281-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01281	C3L-01281-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01281	C3L-01281-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01283	C3L-01283-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01283	C3L-01283-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01286	C3L-01286-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01286	C3L-01286-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01286	C3L-01286-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01286	C3L-01286-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01286	C3L-01286-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01287	C3L-01287-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01287	C3L-01287-02	Tumor	tumor	CPT0079410004	CPT0079410003	C3L-01287-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01287	C3L-01287-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01287	C3L-01287-06	Normal	normal	CPT0079430002	CPT0079430001	C3L-01287-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex and medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01287	C3L-01287-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01288	C3L-01288-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-01288	C3L-01288-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-01288	C3L-01288-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01302	C3L-01302-03	Tumor	tumor	CPT0063630004	CPT0063630003	C3L-01302-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01302	C3L-01302-06	Normal	normal	CPT0063640002	CPT0063640001	C3L-01302-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01302	C3L-01302-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01313	C3L-01313-03	Tumor	tumor	CPT0086820004	CPT0086820003	C3L-01313-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01313	C3L-01313-06	Normal	normal	CPT0086830004	CPT0086830003	C3L-01313-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex, medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01313	C3L-01313-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01352	C3L-01352-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01352	C3L-01352-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01352	C3L-01352-03	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01352	C3L-01352-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01458	C3L-01458-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-01458	C3L-01458-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	adipose only, not kidney present	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-01458	C3L-01458-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01458	C3L-01458-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01459	C3L-01459-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01459	C3L-01459-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01459	C3L-01459-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01460	C3L-01460-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01460	C3L-01460-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	adipose, no kidney present	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01460	C3L-01460-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01460	C3L-01460-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01461	C3L-01461-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3L-01461	C3L-01461-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01461	C3L-01461-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01462	C3L-01462-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01462	C3L-01462-02	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01462	C3L-01462-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01462	C3L-01462-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01463	C3L-01463-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3L-01463	C3L-01463-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01463	C3L-01463-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01464	C3L-01464-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01464	C3L-01464-02	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01464	C3L-01464-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01464	C3L-01464-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01465	C3L-01465-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01465	C3L-01465-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose tissue	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01465	C3L-01465-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01465	C3L-01465-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01467	C3L-01467-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3L-01467	C3L-01467-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	adipose, no kidney present	GX	NAT	Cannot be assessed
+C3L-01467	C3L-01467-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01467	C3L-01467-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01469	C3L-01469-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01469	C3L-01469-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	adipose , no tumor present	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01469	C3L-01469-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01469	C3L-01469-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01470	C3L-01470-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01470	C3L-01470-02	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex , medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01470	C3L-01470-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01470	C3L-01470-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01553	C3L-01553-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01553	C3L-01553-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose and connective tissue	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01553	C3L-01553-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01553	C3L-01553-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01557	C3L-01557-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01557	C3L-01557-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01557	C3L-01557-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01557	C3L-01557-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01558	C3L-01558-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3L-01558	C3L-01558-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	adipose only, no kidney present	GX	NAT	Cannot be assessed
+C3L-01558	C3L-01558-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01558	C3L-01558-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01560	C3L-01560-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01560	C3L-01560-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose, connective tissue	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01560	C3L-01560-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01560	C3L-01560-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01603	C3L-01603-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01603	C3L-01603-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01603	C3L-01603-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01603	C3L-01603-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01603	C3L-01603-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01607	C3L-01607-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01607	C3L-01607-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01607	C3L-01607-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01607	C3L-01607-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01607	C3L-01607-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01665	C3L-01665-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01665	C3L-01665-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01665	C3L-01665-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-01665	C3L-01665-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01676	C3L-01676-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01676	C3L-01676-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01676	C3L-01676-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01676	C3L-01676-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01676	C3L-01676-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01676	C3L-01676-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01676	C3L-01676-07	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01676	C3L-01676-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01676	C3L-01676-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01681	C3L-01681-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01681	C3L-01681-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01681	C3L-01681-03	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01681	C3L-01681-04	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01681	C3L-01681-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01681	C3L-01681-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01836	C3L-01836-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01836	C3L-01836-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01836	C3L-01836-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01836	C3L-01836-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla and pelvis	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01836	C3L-01836-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01861	C3L-01861-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01861	C3L-01861-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01861	C3L-01861-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01861	C3L-01861-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01861	C3L-01861-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01865	C3L-01865-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01865	C3L-01865-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01865	C3L-01865-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01865	C3L-01865-06	NA	normal	NA	NA	NA	No	No	NA	NA	Other	RENAL CORTEX AND MEDULLA	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01865	C3L-01865-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01869	C3L-01869-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01869	C3L-01869-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01869	C3L-01869-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01869	C3L-01869-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01869	C3L-01869-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01882	C3L-01882-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01882	C3L-01882-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01882	C3L-01882-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01885	C3L-01885-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01885	C3L-01885-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01885	C3L-01885-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01885	C3L-01885-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01885	C3L-01885-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01929	C3L-01929-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01929	C3L-01929-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose tissue with small amount connective tissue	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01929	C3L-01929-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01929	C3L-01929-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01951	C3L-01951-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01951	C3L-01951-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose and minor component connective tissue	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01951	C3L-01951-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01951	C3L-01951-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01952	C3L-01952-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01952	C3L-01952-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01952	C3L-01952-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01953	C3L-01953-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3L-01953	C3L-01953-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01953	C3L-01953-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01954	C3L-01954-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01954	C3L-01954-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose and connective tissue	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-01954	C3L-01954-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01954	C3L-01954-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01955	C3L-01955-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3L-01955	C3L-01955-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex and medulla	GX	NAT	Cannot be assessed
+C3L-01955	C3L-01955-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01955	C3L-01955-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01958	C3L-01958-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01958	C3L-01958-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01958	C3L-01958-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01960	C3L-01960-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01960	C3L-01960-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01960	C3L-01960-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01962	C3L-01962-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01962	C3L-01962-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01962	C3L-01962-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01962	C3L-01962-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01963	C3L-01963-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01963	C3L-01963-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01963	C3L-01963-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01963	C3L-01963-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01976	C3L-01976-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01976	C3L-01976-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01976	C3L-01976-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01976	C3L-01976-04	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01976	C3L-01976-05	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01976	C3L-01976-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, capsule and small amount adipose	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01976	C3L-01976-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-01978	C3L-01978-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01978	C3L-01978-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01978	C3L-01978-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01978	C3L-01978-04	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01978	C3L-01978-05	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	kidney	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01978	C3L-01978-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	kidney with pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-01978	C3L-01978-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02175	C3L-02175-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-02175	C3L-02175-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-02175	C3L-02175-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02175	C3L-02175-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02176	C3L-02176-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02176	C3L-02176-02	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02176	C3L-02176-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02176	C3L-02176-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02177	C3L-02177-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02177	C3L-02177-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02177	C3L-02177-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02177	C3L-02177-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02179	C3L-02179-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02179	C3L-02179-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02179	C3L-02179-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02201	C3L-02201-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02201	C3L-02201-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02201	C3L-02201-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02201	C3L-02201-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02202	C3L-02202-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-02202	C3L-02202-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-02202	C3L-02202-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02202	C3L-02202-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02204	C3L-02204-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3L-02204	C3L-02204-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	connective tissue and adipose only, no kidney present	GX	NAT	Cannot be assessed
+C3L-02204	C3L-02204-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02204	C3L-02204-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02208	C3L-02208-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02208	C3L-02208-02	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal medulla, pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02208	C3L-02208-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02208	C3L-02208-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02210	C3L-02210-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3L-02210	C3L-02210-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex with widespread glomerulosclerosis	GX	NAT	Cannot be assessed
+C3L-02210	C3L-02210-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02210	C3L-02210-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02211	C3L-02211-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-02211	C3L-02211-02	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-02211	C3L-02211-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02211	C3L-02211-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02212	C3L-02212-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02212	C3L-02212-02	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02212	C3L-02212-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02212	C3L-02212-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02214	C3L-02214-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02214	C3L-02214-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	connective tissue, skeletal muscle	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02214	C3L-02214-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02214	C3L-02214-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02220	C3L-02220-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02220	C3L-02220-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02220	C3L-02220-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02220	C3L-02220-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02220	C3L-02220-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02346	C3L-02346-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02346	C3L-02346-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02346	C3L-02346-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02346	C3L-02346-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex , medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02346	C3L-02346-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02352	C3L-02352-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02352	C3L-02352-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02352	C3L-02352-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla and pelvis	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02352	C3L-02352-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02364	C3L-02364-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02364	C3L-02364-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02364	C3L-02364-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02364	C3L-02364-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02544	C3L-02544-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02544	C3L-02544-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02544	C3L-02544-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02544	C3L-02544-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex , medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02544	C3L-02544-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02551	C3L-02551-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02551	C3L-02551-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02551	C3L-02551-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02551	C3L-02551-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02551	C3L-02551-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02553	C3L-02553-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3L-02553	C3L-02553-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02556	C3L-02556-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02556	C3L-02556-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02556	C3L-02556-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02556	C3L-02556-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02556	C3L-02556-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02841	C3L-02841-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02841	C3L-02841-02	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02841	C3L-02841-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02841	C3L-02841-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02842	C3L-02842-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02842	C3L-02842-02	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3L-02842	C3L-02842-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02842	C3L-02842-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02856	C3L-02856-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02856	C3L-02856-02	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02856	C3L-02856-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02856	C3L-02856-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02857	C3L-02857-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02857	C3L-02857-02	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3L-02857	C3L-02857-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02857	C3L-02857-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02858	C3L-02858-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3L-02858	C3L-02858-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02858	C3L-02858-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02860	C3L-02860-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3L-02860	C3L-02860-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3L-02860	C3L-02860-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00148	C3N-00148-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00148	C3N-00148-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00148	C3N-00148-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00148	C3N-00148-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00148	C3N-00148-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla and pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00148	C3N-00148-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla and pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00148	C3N-00148-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00148	C3N-00148-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00149	C3N-00149-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00149	C3N-00149-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00149	C3N-00149-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00149	C3N-00149-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00149	C3N-00149-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00149	C3N-00149-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00149	C3N-00149-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00150	C3N-00150-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00150	C3N-00150-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00150	C3N-00150-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00150	C3N-00150-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00150	C3N-00150-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00150	C3N-00150-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00150	C3N-00150-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00154	C3N-00154-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00154	C3N-00154-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00154	C3N-00154-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00154	C3N-00154-04	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00154	C3N-00154-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00154	C3N-00154-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00154	C3N-00154-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00168	C3N-00168-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00168	C3N-00168-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00168	C3N-00168-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00168	C3N-00168-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00168	C3N-00168-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00168	C3N-00168-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla and pelvis	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00168	C3N-00168-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00177	C3N-00177-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00177	C3N-00177-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00177	C3N-00177-03	Tumor	tumor	CPT0020120013	CPT0020120003	C3N-00177-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00177	C3N-00177-06	Normal	normal	CPT0020130013	CPT0020130001	C3N-00177-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex, medulla and pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00177	C3N-00177-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00177	C3N-00177-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00194	C3N-00194-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00194	C3N-00194-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00194	C3N-00194-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00194	C3N-00194-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00194	C3N-00194-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00194	C3N-00194-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla, scattered lymphocytes	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00194	C3N-00194-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00194	C3N-00194-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00242	C3N-00242-01	Tumor	tumor	CPT0014450005	CPT0014450004	C3N-00242-T1	No	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00242	C3N-00242-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00242	C3N-00242-06	Normal	normal	CPT0014470002	CPT0014470001	C3N-00242-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00242	C3N-00242-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00242	C3N-00242-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00243	C3N-00243-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00243	C3N-00243-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00243	C3N-00243-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00243	C3N-00243-06	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00243	C3N-00243-07	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00243	C3N-00243-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00243	C3N-00243-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00244	C3N-00244-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00244	C3N-00244-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00244	C3N-00244-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00244	C3N-00244-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00244	C3N-00244-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and capsule	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00244	C3N-00244-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00244	C3N-00244-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00246	C3N-00246-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00246	C3N-00246-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00246	C3N-00246-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00246	C3N-00246-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00246	C3N-00246-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	mutilple biopsy fragments, renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00246	C3N-00246-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00246	C3N-00246-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00305	C3N-00305-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-00305	C3N-00305-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-00305	C3N-00305-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00310	C3N-00310-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00310	C3N-00310-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00310	C3N-00310-03	Tumor	tumor	CPT0009000013	CPT0009000003	C3N-00310-T1	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00310	C3N-00310-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00310	C3N-00310-05	Normal	normal	CPT0009020013	CPT0009020003	C3N-00310-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	RENAL CORTEX	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00310	C3N-00310-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00312	C3N-00312-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00312	C3N-00312-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00312	C3N-00312-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00312	C3N-00312-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00312	C3N-00312-05	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00312	C3N-00312-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00313	C3N-00313-01	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00313	C3N-00313-02	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00313	C3N-00313-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00313	C3N-00313-04	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00313	C3N-00313-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00314	C3N-00314-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00314	C3N-00314-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00314	C3N-00314-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00314	C3N-00314-04	Tumor	tumor	CPT0012080004	CPT0012080003	C3N-00314-T1	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00314	C3N-00314-05	Normal	normal	CPT0012090004	CPT0012090003	C3N-00314-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00314	C3N-00314-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00315	C3N-00315-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00315	C3N-00315-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00315	C3N-00315-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00315	C3N-00315-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00315	C3N-00315-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00317	C3N-00317-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00317	C3N-00317-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00317	C3N-00317-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00317	C3N-00317-04	Tumor	tumor	CPT0012280004	CPT0012280003	C3N-00317-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00317	C3N-00317-05	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00317	C3N-00317-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00320	C3N-00320-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00320	C3N-00320-02	Tumor	tumor	CPT0012370004	CPT0012370003	C3N-00320-T1	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00320	C3N-00320-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00320	C3N-00320-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00320	C3N-00320-05	Normal	normal	CPT0013790016	CPT0013790003	C3N-00320-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00320	C3N-00320-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00380	C3N-00380-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00380	C3N-00380-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00380	C3N-00380-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00380	C3N-00380-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00380	C3N-00380-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00380	C3N-00380-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00380	C3N-00380-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00380	C3N-00380-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00390	C3N-00390-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00390	C3N-00390-02	Tumor	tumor	CPT0017410013	CPT0017410003	C3N-00390-T1	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00390	C3N-00390-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00390	C3N-00390-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00390	C3N-00390-06	Normal	normal	CPT0017450002	CPT0017450001	C3N-00390-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00390	C3N-00390-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00390	C3N-00390-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00390	C3N-00390-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00435	C3N-00435-01	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00435	C3N-00435-02	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00435	C3N-00435-03	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00435	C3N-00435-04	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00435	C3N-00435-05	NA	tumor	NA	NA	NA	Yes	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00435	C3N-00435-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	non-Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00435	C3N-00435-07	NA	normal	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	renal medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00435	C3N-00435-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00435	C3N-00435-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00437	C3N-00437-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00437	C3N-00437-02	Tumor	tumor	CPT0012550012	CPT0012550003	C3N-00437-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00437	C3N-00437-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00437	C3N-00437-05	Normal	normal	CPT0012570016	CPT0012570003	C3N-00437-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00437	C3N-00437-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00438	C3N-00438-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3N-00438	C3N-00438-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3N-00438	C3N-00438-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00439	C3N-00439-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00439	C3N-00439-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00439	C3N-00439-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00439	C3N-00439-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00439	C3N-00439-05	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00439	C3N-00439-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00440	C3N-00440-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00440	C3N-00440-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00440	C3N-00440-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00491	C3N-00491-01	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00491	C3N-00491-02	Normal	normal	CPT0012640004	CPT0012640003	C3N-00491-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00491	C3N-00491-03	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex / medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00491	C3N-00491-04	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex / medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00491	C3N-00491-05	Tumor	tumor	CPT0012670004	CPT0012670003	C3N-00491-T1	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00491	C3N-00491-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00492	C3N-00492-01	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00492	C3N-00492-02	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00492	C3N-00492-03	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00492	C3N-00492-04	NA	tumor	NA	NA	NA	Yes	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00492	C3N-00492-05	NA	normal	NA	NA	NA	Yes	No	NA	NA	non-Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00492	C3N-00492-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00494	C3N-00494-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00494	C3N-00494-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00494	C3N-00494-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00494	C3N-00494-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00494	C3N-00494-05	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00494	C3N-00494-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00495	C3N-00495-01	Tumor	tumor	CPT0078510004	CPT0078510003	C3N-00495-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00495	C3N-00495-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00495	C3N-00495-05	Normal	normal	CPT0078530002	CPT0078530001	C3N-00495-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00495	C3N-00495-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00496	C3N-00496-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3N-00496	C3N-00496-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3N-00496	C3N-00496-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3N-00496	C3N-00496-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3N-00496	C3N-00496-05	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex, medulla	GX	NAT	Cannot be assessed
+C3N-00496	C3N-00496-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00573	C3N-00573-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00573	C3N-00573-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00573	C3N-00573-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00573	C3N-00573-04	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00573	C3N-00573-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla and pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00573	C3N-00573-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00573	C3N-00573-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00573	C3N-00573-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00577	C3N-00577-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00577	C3N-00577-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00577	C3N-00577-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00577	C3N-00577-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00577	C3N-00577-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00577	C3N-00577-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00577	C3N-00577-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00577	C3N-00577-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00646	C3N-00646-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00646	C3N-00646-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00646	C3N-00646-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00646	C3N-00646-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00646	C3N-00646-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00646	C3N-00646-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00646	C3N-00646-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00646	C3N-00646-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00647	C3N-00647-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-00647	C3N-00647-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-00647	C3N-00647-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-00647	C3N-00647-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-00647	C3N-00647-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex , medulla	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-00647	C3N-00647-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-00647	C3N-00647-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00647	C3N-00647-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00715	C3N-00715-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00715	C3N-00715-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	kidney cortex / medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00715	C3N-00715-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00715	C3N-00715-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00721	C3N-00721-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00721	C3N-00721-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00721	C3N-00721-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00721	C3N-00721-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00733	C3N-00733-01	Tumor	tumor	CPT0025880013	CPT0025880003	C3N-00733-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00733	C3N-00733-02	Tumor	tumor	CPT0025890002	NA	C3N-00733-T2	No	No	TRUE	FALSE	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00733	C3N-00733-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00733	C3N-00733-06	Normal	normal	CPT0025920002	CPT0025920001	C3N-00733-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00733	C3N-00733-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and capsule	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00733	C3N-00733-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00733	C3N-00733-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00831	C3N-00831-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00831	C3N-00831-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00831	C3N-00831-05	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00831	C3N-00831-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00832	C3N-00832-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-00832	C3N-00832-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00834	C3N-00834-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-00834	C3N-00834-05	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-00834	C3N-00834-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00835	C3N-00835-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3N-00835	C3N-00835-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3N-00835	C3N-00835-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3N-00835	C3N-00835-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	GX	GX	Cannot be assessed
+C3N-00835	C3N-00835-71	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00852	C3N-00852-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00852	C3N-00852-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00852	C3N-00852-03	Tumor	tumor	CPT0024670013	CPT0024670003	C3N-00852-T1	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00852	C3N-00852-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal medulla- pelvis	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00852	C3N-00852-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00852	C3N-00852-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00953	C3N-00953-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00953	C3N-00953-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00953	C3N-00953-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00953	C3N-00953-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00953	C3N-00953-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00953	C3N-00953-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00953	C3N-00953-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-00958	C3N-00958-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00958	C3N-00958-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00958	C3N-00958-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00958	C3N-00958-06	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00958	C3N-00958-07	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-00958	C3N-00958-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01077	C3N-01077-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01077	C3N-01077-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01077	C3N-01077-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01077	C3N-01077-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01077	C3N-01077-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex / medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01077	C3N-01077-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	kidney	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01077	C3N-01077-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01077	C3N-01077-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01078	C3N-01078-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01078	C3N-01078-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01078	C3N-01078-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01078	C3N-01078-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01078	C3N-01078-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	kidney	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01078	C3N-01078-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	kidney	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01078	C3N-01078-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01078	C3N-01078-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01080	C3N-01080-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01080	C3N-01080-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01080	C3N-01080-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01080	C3N-01080-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01080	C3N-01080-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	kidney	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01080	C3N-01080-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	kidney	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01080	C3N-01080-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01080	C3N-01080-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01081	C3N-01081-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01081	C3N-01081-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01081	C3N-01081-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01081	C3N-01081-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01081	C3N-01081-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	kidney	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01081	C3N-01081-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	kidney	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01081	C3N-01081-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01081	C3N-01081-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01082	C3N-01082-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01082	C3N-01082-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01082	C3N-01082-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01082	C3N-01082-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01082	C3N-01082-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	kidney	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01082	C3N-01082-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	kidney	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01082	C3N-01082-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01082	C3N-01082-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01083	C3N-01083-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01083	C3N-01083-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01083	C3N-01083-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01083	C3N-01083-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01083	C3N-01083-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex / medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01083	C3N-01083-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex / medulla / pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01083	C3N-01083-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01083	C3N-01083-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01085	C3N-01085-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01085	C3N-01085-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01085	C3N-01085-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01085	C3N-01085-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01085	C3N-01085-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal coretex/ medulla / pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01085	C3N-01085-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01085	C3N-01085-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01085	C3N-01085-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01086	C3N-01086-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01086	C3N-01086-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01086	C3N-01086-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01086	C3N-01086-04	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01086	C3N-01086-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	kidney	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01086	C3N-01086-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	kidney	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01086	C3N-01086-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01086	C3N-01086-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01088	C3N-01088-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01088	C3N-01088-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01088	C3N-01088-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01088	C3N-01088-04	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01088	C3N-01088-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01088	C3N-01088-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01088	C3N-01088-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01088	C3N-01088-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01090	C3N-01090-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01090	C3N-01090-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01090	C3N-01090-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01090	C3N-01090-04	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01090	C3N-01090-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex / medulla	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01090	C3N-01090-07	NA	normal	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01090	C3N-01090-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01090	C3N-01090-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01091	C3N-01091-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01091	C3N-01091-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01091	C3N-01091-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01091	C3N-01091-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01091	C3N-01091-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla, pelvis	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01091	C3N-01091-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01091	C3N-01091-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01091	C3N-01091-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01175	C3N-01175-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01175	C3N-01175-05	NA	normal	NA	NA	NA	Yes	No	NA	NA	non-Clear cell renal cell carcinoma	renal medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01175	C3N-01175-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01176	C3N-01176-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01176	C3N-01176-05	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal medulla, pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01176	C3N-01176-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01177	C3N-01177-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01177	C3N-01177-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01177	C3N-01177-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01177	C3N-01177-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01177	C3N-01177-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01178	C3N-01178-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01178	C3N-01178-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01178	C3N-01178-05	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01178	C3N-01178-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01179	C3N-01179-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01179	C3N-01179-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01179	C3N-01179-05	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01179	C3N-01179-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01180	C3N-01180-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01180	C3N-01180-02	NA	tumor	NA	NA	NA	No	No	NA	NA	non-Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01180	C3N-01180-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01200	C3N-01200-01	Tumor	tumor	CPT0075120002	NA	C3N-01200-T3	No	No	TRUE	FALSE	Clear cell renal cell carcinoma	NA	G3	G4	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01200	C3N-01200-02	Tumor	tumor	CPT0075130004	CPT0075130003	C3N-01200-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G3	G2	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01200	C3N-01200-03	Tumor	tumor	CPT0075140002	NA	C3N-01200-T2	No	No	TRUE	FALSE	Clear cell renal cell carcinoma	NA	G3	G4	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01200	C3N-01200-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01200	C3N-01200-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01200	C3N-01200-06	Normal	normal	CPT0075170013	CPT0075170001	C3N-01200-N	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01200	C3N-01200-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01200	C3N-01200-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01213	C3N-01213-01	Tumor	tumor	CPT0075720013	CPT0075720003	C3N-01213-T1	Yes	No	TRUE	TRUE	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01213	C3N-01213-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01213	C3N-01213-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01213	C3N-01213-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex with aspect with clear cell change and tubular proliferation	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01213	C3N-01213-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01213	C3N-01213-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01214	C3N-01214-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01214	C3N-01214-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01214	C3N-01214-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01214	C3N-01214-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01214	C3N-01214-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01214	C3N-01214-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01220	C3N-01220-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01220	C3N-01220-02	Tumor	tumor	CPT0076330012	CPT0076330003	C3N-01220-T1	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01220	C3N-01220-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01220	C3N-01220-06	Normal	normal	CPT0076350002	CPT0076350001	C3N-01220-N	Yes	No	FALSE	FALSE	Clear cell renal cell carcinoma	renal cortex	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01220	C3N-01220-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01220	C3N-01220-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01261	C3N-01261-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01261	C3N-01261-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01261	C3N-01261-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01261	C3N-01261-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01261	C3N-01261-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01261	C3N-01261-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01270	C3N-01270-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01270	C3N-01270-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01270	C3N-01270-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01270	C3N-01270-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01361	C3N-01361-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01361	C3N-01361-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01361	C3N-01361-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01361	C3N-01361-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01362	C3N-01362-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01362	C3N-01362-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01362	C3N-01362-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01362	C3N-01362-07	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01362	C3N-01362-08	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01362	C3N-01362-10	NA	normal	NA	NA	NA	No	No	NA	NA	Other	MAJORITY NORMAL KIDNEY, ONE SMALL FOCUS OF SUSPECTED TUMOR	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01362	C3N-01362-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01522	C3N-01522-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01522	C3N-01522-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01522	C3N-01522-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01522	C3N-01522-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01522	C3N-01522-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01522	C3N-01522-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01524	C3N-01524-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01524	C3N-01524-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01524	C3N-01524-03	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01524	C3N-01524-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01524	C3N-01524-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01524	C3N-01524-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01536	C3N-01536-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01536	C3N-01536-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01536	C3N-01536-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01536	C3N-01536-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01536	C3N-01536-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01536	C3N-01536-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01646	C3N-01646-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01646	C3N-01646-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01646	C3N-01646-10	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01646	C3N-01646-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01648	C3N-01648-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01648	C3N-01648-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01648	C3N-01648-08	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01648	C3N-01648-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01649	C3N-01649-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01649	C3N-01649-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01649	C3N-01649-10	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal medulla, pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01649	C3N-01649-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01650	C3N-01650-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01650	C3N-01650-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01650	C3N-01650-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01650	C3N-01650-06	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01650	C3N-01650-07	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01650	C3N-01650-08	NA	normal	NA	NA	NA	No	No	NA	NA	Other	KIDNEY CORTEX	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01650	C3N-01650-09	NA	normal	NA	NA	NA	No	No	NA	NA	Other	KIDNEY MEDULLA	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01650	C3N-01650-10	NA	normal	NA	NA	NA	No	No	NA	NA	Other	RENAL CORTEX	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01650	C3N-01650-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01651	C3N-01651-01	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01651	C3N-01651-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01651	C3N-01651-10	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-01651	C3N-01651-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01652	C3N-01652-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01652	C3N-01652-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01652	C3N-01652-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01652	C3N-01652-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01652	C3N-01652-05	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex and medulla	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01652	C3N-01652-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01653	C3N-01653-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01653	C3N-01653-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01653	C3N-01653-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01653	C3N-01653-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01653	C3N-01653-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01653	C3N-01653-09	NA	normal	NA	NA	NA	No	No	NA	NA	Other	kidney medulla, small tissue floater of glandular epithelia	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01653	C3N-01653-10	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex, medulla, interstitial fibrosis	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01653	C3N-01653-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01654	C3N-01654-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01654	C3N-01654-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01654	C3N-01654-09	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01654	C3N-01654-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01655	C3N-01655-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01655	C3N-01655-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01655	C3N-01655-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01656	C3N-01656-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01656	C3N-01656-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01656	C3N-01656-07	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01656	C3N-01656-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01657	C3N-01657-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01657	C3N-01657-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01657	C3N-01657-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01657	C3N-01657-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01803	C3N-01803-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01803	C3N-01803-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01803	C3N-01803-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01803	C3N-01803-06	NA	normal	NA	NA	NA	No	No	NA	NA	Other	kidney	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01803	C3N-01803-07	NA	normal	NA	NA	NA	No	No	NA	NA	Other	kidney	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01803	C3N-01803-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01803	C3N-01803-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01806	C3N-01806-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01806	C3N-01806-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01806	C3N-01806-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01806	C3N-01806-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01806	C3N-01806-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-01806	C3N-01806-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01806	C3N-01806-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01808	C3N-01808-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01808	C3N-01808-02	NA	tumor	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01808	C3N-01808-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01808	C3N-01808-06	NA	normal	NA	NA	NA	Yes	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01808	C3N-01808-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01808	C3N-01808-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01808	C3N-01808-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01828	C3N-01828-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01828	C3N-01828-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01828	C3N-01828-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01828	C3N-01828-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex with fibrosis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01828	C3N-01828-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01828	C3N-01828-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01902	C3N-01902-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01902	C3N-01902-05	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01902	C3N-01902-09	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01902	C3N-01902-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01903	C3N-01903-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01903	C3N-01903-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01903	C3N-01903-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01903	C3N-01903-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01903	C3N-01903-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01903	C3N-01903-08	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01903	C3N-01903-09	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01903	C3N-01903-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01904	C3N-01904-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01904	C3N-01904-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01904	C3N-01904-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01904	C3N-01904-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-01904	C3N-01904-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01905	C3N-01905-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01905	C3N-01905-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01905	C3N-01905-09	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01905	C3N-01905-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01989	C3N-01989-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01989	C3N-01989-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01989	C3N-01989-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01989	C3N-01989-04	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex , medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-01989	C3N-01989-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-01989	C3N-01989-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02005	C3N-02005-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02005	C3N-02005-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02005	C3N-02005-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02005	C3N-02005-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02005	C3N-02005-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02015	C3N-02015-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02015	C3N-02015-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02015	C3N-02015-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02015	C3N-02015-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02015	C3N-02015-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02015	C3N-02015-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02063	C3N-02063-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02063	C3N-02063-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02063	C3N-02063-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02063	C3N-02063-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose tissue onely	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02063	C3N-02063-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02063	C3N-02063-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02066	C3N-02066-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02066	C3N-02066-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02066	C3N-02066-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02066	C3N-02066-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02066	C3N-02066-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02068	C3N-02068-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02068	C3N-02068-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02068	C3N-02068-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02068	C3N-02068-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02068	C3N-02068-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02070	C3N-02070-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02070	C3N-02070-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02070	C3N-02070-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02070	C3N-02070-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02070	C3N-02070-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02082	C3N-02082-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02082	C3N-02082-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02082	C3N-02082-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02082	C3N-02082-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02082	C3N-02082-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02084	C3N-02084-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02084	C3N-02084-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02084	C3N-02084-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02084	C3N-02084-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02084	C3N-02084-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02085	C3N-02085-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02085	C3N-02085-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02085	C3N-02085-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02085	C3N-02085-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02085	C3N-02085-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02160	C3N-02160-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02160	C3N-02160-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02160	C3N-02160-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02160	C3N-02160-04	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02160	C3N-02160-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02160	C3N-02160-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex , medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02160	C3N-02160-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02160	C3N-02160-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02224	C3N-02224-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02224	C3N-02224-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02224	C3N-02224-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02224	C3N-02224-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02224	C3N-02224-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	kidney cortex to pelvis	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02224	C3N-02224-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex , medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02224	C3N-02224-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02224	C3N-02224-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02248	C3N-02248-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02248	C3N-02248-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02248	C3N-02248-72	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02248	C3N-02248-73	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02248	C3N-02248-74	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02248	C3N-02248-75	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02248	C3N-02248-76	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	distal tubules, renal pelvis	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02261	C3N-02261-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-02261	C3N-02261-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-02261	C3N-02261-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-02261	C3N-02261-04	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-02261	C3N-02261-05	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-02261	C3N-02261-06	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex, medulla	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-02261	C3N-02261-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02262	C3N-02262-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02262	C3N-02262-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02262	C3N-02262-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02263	C3N-02263-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02263	C3N-02263-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02263	C3N-02263-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02264	C3N-02264-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-02264	C3N-02264-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-02264	C3N-02264-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02265	C3N-02265-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-02265	C3N-02265-05	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G1	NAT	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-02265	C3N-02265-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02266	C3N-02266-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-02266	C3N-02266-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02332	C3N-02332-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02332	C3N-02332-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02332	C3N-02332-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02332	C3N-02332-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02332	C3N-02332-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02332	C3N-02332-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02338	C3N-02338-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02338	C3N-02338-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02338	C3N-02338-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02338	C3N-02338-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	adipose tissue only	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02338	C3N-02338-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02338	C3N-02338-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02429	C3N-02429-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02429	C3N-02429-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02429	C3N-02429-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02429	C3N-02429-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02429	C3N-02429-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02431	C3N-02431-01	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02431	C3N-02431-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02431	C3N-02431-03	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02431	C3N-02431-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02431	C3N-02431-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02439	C3N-02439-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02439	C3N-02439-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02439	C3N-02439-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02439	C3N-02439-06	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02439	C3N-02439-07	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal medulla and cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02439	C3N-02439-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02439	C3N-02439-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02440	C3N-02440-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02440	C3N-02440-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02440	C3N-02440-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02440	C3N-02440-06	NA	normal	NA	NA	NA	No	No	NA	NA	Other	kidney	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02440	C3N-02440-07	NA	normal	NA	NA	NA	No	No	NA	NA	Other	kidney	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02440	C3N-02440-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02440	C3N-02440-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02577	C3N-02577-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02577	C3N-02577-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02577	C3N-02577-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02577	C3N-02577-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02577	C3N-02577-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02723	C3N-02723-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02723	C3N-02723-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02723	C3N-02723-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02723	C3N-02723-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	kidney architecture, focally but with marked sclerosis, fibrosis and necrosis	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02723	C3N-02723-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02723	C3N-02723-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02726	C3N-02726-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02726	C3N-02726-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02726	C3N-02726-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02726	C3N-02726-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02726	C3N-02726-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02726	C3N-02726-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02761	C3N-02761-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02761	C3N-02761-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02761	C3N-02761-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02761	C3N-02761-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02761	C3N-02761-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02763	C3N-02763-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02763	C3N-02763-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02763	C3N-02763-03	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02763	C3N-02763-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02763	C3N-02763-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02811	C3N-02811-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02811	C3N-02811-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02811	C3N-02811-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02811	C3N-02811-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-02811	C3N-02811-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02811	C3N-02811-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02818	C3N-02818-01	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02818	C3N-02818-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02818	C3N-02818-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Other	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02818	C3N-02818-06	NA	normal	NA	NA	NA	No	No	NA	NA	Other	kidney	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02818	C3N-02818-07	NA	normal	NA	NA	NA	No	No	NA	NA	Other	renal cortex, mono-nuclear lymphocytes	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-02818	C3N-02818-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02818	C3N-02818-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02945	C3N-02945-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-02945	C3N-02945-02	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-02945	C3N-02945-03	NA	tumor	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	NA	G4	G4	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-02945	C3N-02945-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-02945	C3N-02945-07	NA	normal	NA	NA	NA	No	No	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G4	NAT	Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped
+C3N-02945	C3N-02945-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-02945	C3N-02945-32	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-03018	C3N-03018-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-03018	C3N-03018-06	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-03018	C3N-03018-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-03019	C3N-03019-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G2	G2	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-03019	C3N-03019-05	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex, medulla	G2	NAT	Nuclei slightly irregular, approximately 15µm; nucleoli evident
+C3N-03019	C3N-03019-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-03020	C3N-03020-02	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G1	G1	Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous
+C3N-03020	C3N-03020-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
+C3N-03021	C3N-03021-01	NA	tumor	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	NA	G3	G3	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-03021	C3N-03021-04	NA	normal	NA	NA	NA	No	Yes	NA	NA	Clear cell renal cell carcinoma	renal cortex and medulla	G3	NAT	Nuclei very irregular, approximately 20µm; nucleoli large and prominent
+C3N-03021	C3N-03021-31	NA	blood	NA	NA	NA	No	No	NA	NA	Normal Adjacent Tissue	NA		NAT	
