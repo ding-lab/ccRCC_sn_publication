@@ -84,6 +84,8 @@ rownames(plot_data_raw_mat) <- plot_data_wide_df$V1
 plot_data_mat <- t(apply(plot_data_raw_mat, 1, scale))
 rownames(plot_data_mat) <- rownames(plot_data_raw_mat)
 colnames(plot_data_mat) <- colnames(plot_data_raw_mat)
+## write plot data
+write.table(x = plot_data_mat, file = "../../plot_data/F5a.snRNA.SourceData.tsv", quote = F, sep = "\t", row.names = F)
 
 # specify colors ----------------------------------------------------------
 ## specify color for NA values

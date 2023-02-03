@@ -29,27 +29,31 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-## input the UMAP info
-barcode2umap_df <- fread(data.table = F, input = "../../data/C3N-01200.Tumorcells.Integrated.UMAP_data.20220608.v1.tsv.gz")
-## input barcode-tumor subcluster info
-barcode2tumorsubcluster_df <- fread(input = "../../data/Barcode2TumorSubclusterId.20210805.v1.tsv.gz", data.table = F)
+# make plot data --------------------------------------------------------------
+# ## input the UMAP info
+# barcode2umap_df <- fread(data.table = F, input = "../../data/C3N-01200.Tumorcells.Integrated.UMAP_data.20220608.v1.tsv.gz")
+# ## input barcode-tumor subcluster info
+# barcode2tumorsubcluster_df <- fread(input = "../../data/Barcode2TumorSubclusterId.20210805.v1.tsv.gz", data.table = F)
+# ## merge
+# barcode2umap_df <- merge(x = barcode2umap_df %>%
+#                            mutate(barcode = str_split_fixed(string = barcode_merged, pattern = "_", n = 2)[,1]), 
+#                          y = barcode2tumorsubcluster_df, 
+#                          by.x = c("orig.ident", "barcode"),
+#                          by.y = c("orig.ident", "barcode"),
+#                          all.x = T)
+# ## make plot data
+# plot_data_df <- barcode2umap_df %>%
+#   mutate(Text_Cluster = gsub(x = Cluster_Name, pattern = "C3N\\-01200\\-", replacement = "")) %>%
+#   select(UMAP_1, UMAP_2, Text_Cluster)
+# ## write plot data
+# write.table(x = plot_data_df, file = "../../plot_data/F4d.SourceData.tsv", quote = F, sep = "\t", row.names = F)
 
-# pre-process --------------------------------------------------------------
-barcode2umap_df <- merge(x = barcode2umap_df %>%
-                           mutate(barcode = str_split_fixed(string = barcode_merged, pattern = "_", n = 2)[,1]), 
-                         y = barcode2tumorsubcluster_df, 
-                         by.x = c("orig.ident", "barcode"),
-                         by.y = c("orig.ident", "barcode"),
-                         all.x = T)
+# input plot data ---------------------------------------------------------
+plot_data_df <- fread(data.table = F, input = "../../plot_data/F4d.SourceData.tsv")
 
 # plot----------------------------------------------------
-plot_data_df <- barcode2umap_df %>%
-  mutate(Text_Cluster = gsub(x = Cluster_Name, pattern = "C3N\\-01200\\-", replacement = ""))
 ## make colors
 texts_cluster_uniq <- sort(unique(plot_data_df$Text_Cluster))
-# colors_cluster <- Polychrome::alphabet.colors(n = length(texts_cluster_uniq))
-# colors_cluster <- Polychrome::palette36.colors(n = length(texts_cluster_uniq))
 colors_cluster <- RColorBrewer::brewer.pal(n = 8, name = "Accent")[c(1, 2, 5, 8, 6, 7, 3)]
 names(colors_cluster) <- texts_cluster_uniq
 
@@ -68,7 +72,7 @@ p <- p + theme(panel.grid.major = element_blank(), panel.grid.minor = element_bl
 # p
 ## save plot
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out, "F4d_UMAP_C3N-01200_integrated", ".pdf")
+file2write <- paste0(dir_out, "F4d.UMAP.C3N-01200_integrated", ".pdf")
 pdf(file2write, width = 4, height = 4, useDingbats = F)
 print(p)
 dev.off()

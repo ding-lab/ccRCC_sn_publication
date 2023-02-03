@@ -12,7 +12,8 @@ packages = c(
   "plyr",
   "dplyr",
   "ggplot2",
-  "ComplexHeatmap"
+  "ComplexHeatmap",
+  "circlize"
 )
 for (pkg_name_tmp in packages) {
   if (!(pkg_name_tmp %in% installed.packages()[,1])) {
@@ -28,33 +29,49 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-avgexp_df <- fread(input = "../../data/avgexp_sct_data_bycelltype.tsv.gz", data.table = F)
-
-# specify pairs to filter -------------------------------------------------
+# specify parameters -------------------------------------------------
 genes_filter <- c("CP", "OSMR", "OSM", "TGM2", "FN1")
 
-# format the column names to only aliquot id ------------------------------
-## filtr the rows
-plot_data_df <- avgexp_df %>%
-  rename(gene = V1) %>%
-  filter(gene %in% genes_filter)
-## filter the columns and make data matrix
-plot_data_raw_mat <- as.matrix(plot_data_df[,-1])
-## add row names
-rownames(plot_data_raw_mat) <- plot_data_df$gene
-## filter rows based on the average expression
-genes_plot <- rownames(plot_data_raw_mat)
-genes_plot <- genes_filter[genes_filter %in% genes_plot]
-plot_data_mat <- t(apply(plot_data_raw_mat, 1, scale))
-rownames(plot_data_mat) <- rownames(plot_data_raw_mat); plot_data_mat <- plot_data_mat[genes_plot,]
-colnames(plot_data_mat) <- colnames(plot_data_raw_mat)
-## filter column
-colnames_plot <- colnames(plot_data_mat)
-celltypes_plot <- gsub(x = colnames_plot, pattern = "SCT\\.", replacement = "")
-colnames_plot <- colnames_plot[!(celltypes_plot %in% c("Unknown", "others", "Immune.others", "Proximal.tubule", "Intercalated.cells", "Loop.of.Henle", "Principle.cells", "Distal.convoluted.tubule", "Podocytes"))]
-celltypes_plot <- gsub(x = colnames_plot, pattern = "SCT\\.", replacement = "")
-plot_data_mat <- plot_data_mat[,colnames_plot]
+# make plot data ------------------------------
+# ## input data
+# avgexp_df <- fread(input = "../../data/35_aliquot_merged.avgexp.SCT.data.Cell_group_w_epithelialcelltypes.20210907.v1.tsv.gz", data.table = F)
+# ## filtr the rows
+# plot_data_df <- avgexp_df %>%
+#   rename(gene = V1) %>%
+#   filter(gene %in% genes_filter)
+# ## filter the columns and make data matrix
+# plot_data_raw_mat <- as.matrix(plot_data_df[,-1])
+# ## add row names
+# rownames(plot_data_raw_mat) <- plot_data_df$gene
+# ## filter rows based on the average expression
+# genes_plot <- rownames(plot_data_raw_mat)
+# genes_plot <- genes_filter[genes_filter %in% genes_plot]
+# plot_data_mat <- t(apply(plot_data_raw_mat, 1, scale))
+# rownames(plot_data_mat) <- rownames(plot_data_raw_mat); plot_data_mat <- plot_data_mat[genes_plot,]
+# colnames(plot_data_mat) <- colnames(plot_data_raw_mat)
+# ## filter column
+# colnames_plot <- colnames(plot_data_mat)
+# celltypes_plot <- gsub(x = colnames_plot, pattern = "SCT\\.", replacement = "")
+# colnames_plot <- colnames_plot[!(celltypes_plot %in% c("Unknown", "others", "Immune.others", "Proximal.tubule", "Intercalated.cells", "Loop.of.Henle", "Principle.cells", "Distal.convoluted.tubule", "Podocytes"))]
+# plot_data_mat <- plot_data_mat[genes_filter, colnames_plot]
+# 
+# ## save plot data
+# write.table(x = t(plot_data_mat), file = "../../plot_data/F2g.SourceData.tsv", quote = F, sep = "\t", row.names = T)
+
+# input plot data ---------------------------------------------------------
+plot_data_df <- fread(data.table = F, input = "../../plot_data/F2g.SourceData.tsv")
+plot_data_mat <- as.matrix(plot_data_df); 
+rownames(plot_data_mat) <- genes_filter
+
+# specify colors ----------------------------------------------------------
+## specify color for NA values
+color_na <- "grey50"
+## make color function for heatmap body colors
+color_blue <- RColorBrewer::brewer.pal(n = 3, name = "Set1")[2]
+colors_heatmapbody = colorRamp2(c(-1.5, 
+                                  0, 
+                                  seq(from = 0.5, to = 2, by = 0.5)), 
+                                c(color_blue, "white", RColorBrewer::brewer.pal(n = 4, name = "YlOrRd")))
 
 # process column name labels ----------------------------------------------
 cellgroup_label_df <- data.frame(cell_type13 = c("B-cells", "CD4+ T-cells", "CD8+ T-cells", "DC", "Endothelial cells", "Fibroblasts", "Immune others", "Macrophages", "NK cells", 
@@ -62,30 +79,8 @@ cellgroup_label_df <- data.frame(cell_type13 = c("B-cells", "CD4+ T-cells", "CD8
                                                  "Proximal tubule", "Loop of Henle", "Distal convoluted tubule", 'Principle cells', "Intercalated cells", "Podocytes"))
 cellgroup_label_df <- cellgroup_label_df %>%
   mutate(cell_type13.columnname = gsub(x = cell_type13, pattern = "\\-|\\+| ", replacement = "."))
+celltypes_plot <- gsub(x = colnames(plot_data_mat), pattern = "SCT\\.", replacement = "")
 celltypelabels_plot <- mapvalues(x = celltypes_plot, from = cellgroup_label_df$cell_type13.columnname, to = as.vector(cellgroup_label_df$cell_type13))
-
-# specify colors ----------------------------------------------------------
-## specify color for NA values
-color_na <- "grey50"
-## make color function for baseline expression
-col_baselineexp <- colorRamp2(c(0, 2), c("white", "orange"))
-## make color function for heatmap body colors
-summary(as.vector(unlist(plot_data_mat)))
-color_blue <- RColorBrewer::brewer.pal(n = 3, name = "Set1")[2]
-colors_heatmapbody = colorRamp2(c(-1.5, 
-                                  0, 
-                                  seq(from = 0.5, to = 2, by = 0.5)), 
-                                c(color_blue, "white", RColorBrewer::brewer.pal(n = 4, name = "YlOrRd")))
-## make colors for the original unscaled expression
-# summary(orig_avgexp_vec)
-colors_unscaledexp = circlize::colorRamp2(seq(from = 0, to = 4, by = 0.5), 
-                                          RColorBrewer::brewer.pal(name = "RdPu", n = 9))
-# make row annotation -----------------------------------------------------
-## annotate unscaled expression
-orig_avgexp_vec <- rowMeans(x = plot_data_raw_mat, na.rm = T)
-row_anno_obj <- rowAnnotation(
-  unscaled_snRNA_exp = anno_simple(x = orig_avgexp_vec, col = colors_unscaledexp),
-  annotation_name_side = "bottom", annotation_name_gp = gpar(fontsize = 10), annotation_width = unit(4, "mm"))
 
 # plot heatmap body -----------------------------------------------------------------
 p <- ComplexHeatmap::Heatmap(matrix = t(plot_data_mat), 
@@ -107,7 +102,7 @@ list_lgd = list(
 # write output ------------------------------------------------------------
 ## save plot
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out,"F2g_Heatmap_CP_OSMR_TGM2_FN1.pdf")
+file2write <- paste0(dir_out,"F2g.Heatmap.CP_OSMR_TGM2_FN1.pdf")
 pdf(file2write, width = 4, height = 3.2)
 draw(object = p, 
      annotation_legend_side = "right", annotation_legend_list = list_lgd)

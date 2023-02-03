@@ -1,0 +1,53 @@
+case	tumorcellintrinsic_inflamm_score	age	sex	sex.ismale	tumor_stage_pathological	stage.numeric	grade.numeric	days_from_date_of_initial_pathologic_diagnosis_to_date_of_last_contact	vital_status_at_date_of_last_contact	days_from_date_of_initial_pathologic_diagnosis_to_date_of_death	days_from_date_of_initial_pathologic_diagnosis_to_withtumor	new_tumor_after_initial_treatment	days_from_date_of_initial_pathologic_diagnosis_to_date_of_new_tumor_after_initial_treatment	tumor_status_at_date_of_last_contact_or_death	OS_time	OS_status	PFS_time	PFS_status	Expression	Expression_group	surv_time	surv_status
+C3L-00004	24.4758312533844	72	Male	1	III	3	3	384	Living	n/a	NA	No	n/a	Tumor Free	384	censored	384	censored	24.4758312533844	High	1.07671232876712	1
+C3L-00183	-31.9965369752118	33	Female	0	III	3	2	227	Living	n/a	NA	Unknown	n/a	Unknown	227	censored	227	censored	-31.9965369752118	Low	0.646575342465753	1
+C3L-00416	43.8619158966401	62	Male	1	III	3	4	608	Living	n/a	NA	Unknown	n/a	Tumor Free	608	censored	608	censored	43.8619158966401	High	1.69041095890411	1
+C3L-00418	-42.676240106796	56	Female	0	III	3	2	1714	Living	n/a	NA	No	n/a	Tumor Free	1714	censored	1714	censored	-42.676240106796	Low	4.72054794520548	1
+C3L-00561	63.8241970044324	50	Male	1	III	3	4	1796	Living	n/a	368	Yes	368.0	With Tumor	1796	censored	368	progression	63.8241970044324	High	4.94520547945205	1
+C3L-00581	49.1931995762931	52	Male	1	II	2	2	1230	Deceased	1230.0	704	Yes	389.0	With Tumor	1230	dead	704	progression	49.1931995762931	High	3.39452054794521	2
+C3L-00583	23.9369140913248	55	Male	1	I	1	3	301	Living	n/a	NA	No	n/a	Tumor Free	301	censored	301	censored	23.9369140913248	High	0.849315068493151	1
+C3L-00607	29.7061758437046	66	Male	1	III	3	3	768	Deceased	781.0	768	Yes	733.0	With Tumor	768	dead	768	progression	29.7061758437046	High	2.12876712328767	2
+C3L-00765	-42.5728027189679	61	Female	0	I	1	2	1098	Living	n/a	NA	No	n/a	Tumor Free	1098	censored	1098	censored	-42.5728027189679	Low	3.03287671232877	1
+C3L-00766	-35.8815755358048	57	Female	0	I	1	2	266	Living	n/a	NA	Unknown	n/a	Tumor Free	266	censored	266	censored	-35.8815755358048	Low	0.753424657534247	1
+C3L-00790	-40.3637168269896	44	Male	1	I	1	2	441	Living	n/a	NA	No	n/a	Tumor Free	441	censored	441	censored	-40.3637168269896	Low	1.23287671232877	1
+C3L-00792	30.1790233706728	90	Female	0	II	2	3	1094	Living	n/a	NA	No	n/a	Tumor Free	1094	censored	1094	censored	30.1790233706728	High	3.02191780821918	1
+C3L-00796	24.7823221127801	67	Male	1	I	1	2	333	Living	n/a	NA	No	n/a	Tumor Free	333	censored	333	censored	24.7823221127801	High	0.936986301369863	1
+C3L-00800	-22.50761039587	41	Male	1	I	1	2	344	Living	n/a	NA	No	n/a	Tumor Free	344	censored	344	censored	-22.50761039587	Low	0.967123287671233	1
+C3L-00812	-33.4828411706399	74	Male	1	I	1	2	8	Living	n/a	NA	Unknown	n/a	Unknown	8	censored	8	censored	-33.4828411706399	Low	0.0465753424657534	1
+C3L-00817	-33.5425408677444	80	Male	1	I	1	2	966	Living	n/a	NA	No	n/a	Tumor Free	966	censored	966	censored	-33.5425408677444	Low	2.67123287671233	1
+C3L-00902	-26.3546049886433	69	Female	0	I	1	1	1415	Living	n/a	NA	No	n/a	Tumor Free	1415	censored	1415	censored	-26.3546049886433	Low	3.9013698630137	1
+C3L-00908	33.1331200617875	60	Female	0	II	2	3	1419	Living	n/a	NA	No	n/a	Tumor Free	1419	censored	1419	censored	33.1331200617875	High	3.91232876712329	1
+C3L-00917	-31.6222383543858	37	Male	1	I	1	3	1422	Living	n/a	NA	No	n/a	Tumor Free	1422	censored	1422	censored	-31.6222383543858	Low	3.92054794520548	1
+C3L-01286	39.2459087685663	58	Male	1	III	3	3	1028	Deceased	1028.0	356	Yes	594.0	With Tumor	1028	dead	356	progression	39.2459087685663	High	2.84109589041096	2
+C3L-01287	19.9744438009567	60	Male	1	IV	4	4	630	Deceased	633.0	331	No	n/a	With Tumor	630	dead	331	progression	19.9744438009567	High	1.75068493150685	2
+C3L-01302	52.1433295646789	71	Female	0	III	3	4	53	Deceased	55.0	NA	No	n/a	Tumor Free	53	dead	53	censored	52.1433295646789	High	0.16986301369863	2
+C3L-01313	92.7786672461041	63	Male	1	III	3	4	1229	Deceased	1229.0	674	Yes	456.0	With Tumor	1229	dead	674	progression	92.7786672461041	High	3.39178082191781	2
+C3L-01553	-22.9542883324304	59	Male	1	I	1	2	384	Living	n/a	NA	Unknown	n/a	Tumor Free	384	censored	384	censored	-22.9542883324304	Low	1.07671232876712	1
+C3L-01557	-24.2881975536659	51	Male	1	III	3	3	329	Living	n/a	NA	No	n/a	Tumor Free	329	censored	329	censored	-24.2881975536659	Low	0.926027397260274	1
+C3L-01836	-40.8829747251346	47	Male	1	I	1	3	1122	Living	n/a	NA	No	n/a	Tumor Free	1122	censored	1122	censored	-40.8829747251346	Low	3.0986301369863	1
+C3L-01882	-24.7513926321305	48	Male	1	I	1	2	350	Living	n/a	NA	No	n/a	Tumor Free	350	censored	350	censored	-24.7513926321305	Low	0.983561643835616	1
+C3N-00150	-48.9534117394047	55	Female	0	IV	4	3	-7	Living	n/a	NA	Unknown	n/a	Unknown	-7	censored	-7	censored	-48.9534117394047	Low	0.00547945205479452	1
+C3N-00177	40.728651476915	52	Male	1	III	3	2	841	Living	n/a	NA	No	n/a	Tumor Free	841	censored	841	censored	40.728651476915	High	2.32876712328767	1
+C3N-00194	32.6894745822069	51	Female	0	IV	4	3	208	Living	n/a	208	Yes	115.0	With Tumor	208	censored	208	progression	32.6894745822069	High	0.594520547945205	1
+C3N-00242	82.7634826303903	69	Male	1	I	1	2	1793	Living	n/a	NA	No	n/a	Tumor Free	1793	censored	1793	censored	82.7634826303903	High	4.93698630136986	1
+C3N-00305	-25.6134271759167	60	Female	0	I	1	1	1913	Living	n/a	1203	No	n/a	Tumor Free	1913	censored	1203	progression	-25.6134271759167	Low	5.26575342465753	1
+C3N-00317	78.0712692796391	74	Female	0	I	1	2	1133	Living	n/a	NA	No	n/a	Tumor Free	1133	censored	1133	censored	78.0712692796391	High	3.12876712328767	1
+C3N-00390	-32.4796810194144	58	Male	1	IV	4	2	687	Living	n/a	289	No	n/a	With Tumor	687	censored	289	progression	-32.4796810194144	Low	1.90684931506849	1
+C3N-00437	144.954307601553	69	Female	0	III	3	3	1637	Deceased	1637.0	NA	No	n/a	Tumor Free	1637	dead	1637	censored	144.954307601553	High	4.50958904109589	2
+C3N-00491	48.5290665731191	54	Male	1	IV	4	2	77	Deceased	99.0	77	Unknown	n/a	With Tumor	77	dead	77	progression	48.5290665731191	High	0.235616438356164	2
+C3N-00495	-25.2212629951728	67	Male	1	I	1	2	1779	Living	n/a	NA	No	n/a	Tumor Free	1779	censored	1779	censored	-25.2212629951728	Low	4.8986301369863	1
+C3N-00573	46.1625777786011	61	Male	1	II	2	2	6	Living	n/a	NA	Unknown	n/a	Unknown	6	censored	6	censored	46.1625777786011	High	0.0410958904109589	1
+C3N-00834	-27.5290979402836	65	Male	1	I	1	1	1755	Living	n/a	NA	No	n/a	Tumor Free	1755	censored	1755	censored	-27.5290979402836	Low	4.83287671232877	1
+C3N-00852	65.3946396556293	62	Male	1	III	3	3	620	Living	n/a	NA	No	n/a	Tumor Free	620	censored	620	censored	65.3946396556293	High	1.72328767123288	1
+C3N-00953	44.1689359199016	41	Male	1	II	2	3	1428	Living	n/a	NA	No	n/a	Tumor Free	1428	censored	1428	censored	44.1689359199016	High	3.93698630136986	1
+C3N-01176	-33.9770331994503	71	Male	1	III	3	2	1710	Living	n/a	770	No	n/a	With Tumor	1710	censored	770	progression	-33.9770331994503	Low	4.70958904109589	1
+C3N-01178	-59.7768786006266	58	Female	0	III	3	2	1703	Living	n/a	NA	No	n/a	Tumor Free	1703	censored	1703	censored	-59.7768786006266	Low	4.69041095890411	1
+C3N-01200	41.5467983317631	56	Female	0	IV	4	4	47	Deceased	47.0	47	No	n/a	With Tumor	47	dead	47	progression	41.5467983317631	High	0.153424657534247	2
+C3N-01213	-31.4463016549727	68	Male	1	III	3	1	654	Living	n/a	NA	No	n/a	Tumor Free	654	censored	654	censored	-31.4463016549727	Low	1.81643835616438	1
+C3N-01361	-42.3275162792056	48	Male	1	I	1	2	1472	Living	n/a	NA	No	n/a	Tumor Free	1472	censored	1472	censored	-42.3275162792056	Low	4.05753424657534	1
+C3N-01522	20.6376484043872	80	Male	1	I	1	2	692	Living	n/a	NA	No	n/a	Tumor Free	692	censored	692	censored	20.6376484043872	High	1.92054794520548	1
+C3N-01646	43.1932992707463	69	Male	1	III	3	3	1470	Living	n/a	NA	No	n/a	Tumor Free	1470	censored	1470	censored	43.1932992707463	High	4.05205479452055	1
+C3N-01648	-266.081964334265	69	Male	1	II	2	2	1417	Living	n/a	NA	No	n/a	Tumor Free	1417	censored	1417	censored	-266.081964334265	Low	3.90684931506849	1
+C3N-01649	-34.1494711965573	51	Male	1	III	3	2	1421	Living	n/a	NA	No	n/a	Tumor Free	1421	censored	1421	censored	-34.1494711965573	Low	3.91780821917808	1
+C3N-01651	41.1245227210772	58	Male	1	II	2	3	1420	Living	n/a	395	No	n/a	With Tumor	1420	censored	395	progression	41.1245227210772	High	3.91506849315068	1
+C3N-01808	-35.3858299349866	47	Male	1	I	1	2	778	Living	n/a	NA	Unknown	n/a	Tumor Free	778	censored	778	censored	-35.3858299349866	Low	2.15616438356164	1

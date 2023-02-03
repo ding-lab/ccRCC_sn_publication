@@ -134,6 +134,8 @@ gene2geneset_wide_df <- dcast(data = gene2geneset_long_df, geneset ~ genesymbol,
 plotdata_mat <- as.matrix(gene2geneset_wide_df[,-1])
 rownames(plotdata_mat) <- gene2geneset_wide_df$geneset
 plotdata_mat[is.na(plotdata_mat)] <- 0
+## write plot data
+write.table(x = plotdata_mat, file = "../../F7c.SourceData.tsv", quote = F, sep = "\t", row.names = T)
 
 # make colors -------------------------------------------------------------
 color_blue <- RColorBrewer::brewer.pal(n = 3, name = "Set1")[2]
@@ -141,7 +143,6 @@ color_red <- RColorBrewer::brewer.pal(n = 3, name = "Set1")[1]
 summary(as.vector(plotdata_mat))
 colors_heatmapbody = colorRamp2(c(-1, 0, 1), c("purple", "grey20", "yellow"))
 colors_heatmapbody = colorRamp2(c(-1, 0, 1), c(color_blue, "white", color_red))
-
 fontsize_plot <- 18
 list_lgd = packLegend(
   Legend(col_fun = colors_heatmapbody, 

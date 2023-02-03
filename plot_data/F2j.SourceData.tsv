@@ -1,0 +1,5 @@
+external_gene_name	value	sample_text	sample_text2
+CP	0.536730918975241	rcc4_klf9_c2	sh-KLF9
+KLF9	0.50812658996001	rcc4_klf9_c2	sh-KLF9
+CP	1	rcc4_scrambled	sh-NC
+KLF9	1	rcc4_scrambled	sh-NC

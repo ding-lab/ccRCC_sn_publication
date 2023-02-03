@@ -26,14 +26,21 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-plot_data_df <- fread(data.table = F, input = "../../data/snRNA.UMAPCoordinate.ClusterID.CellType.ByBarcode.tsv.gz")
+# # make source data ------------------------------------------------------------
+# ## input data
+# barcode_info_df <- fread(data.table = F, input = "../../data/snRNA.UMAPCoordinate.ClusterID.CellType.ByBarcode.tsv.gz")
+# ## format data
+# plot_data_df <- barcode_info_df %>%
+#   mutate(Cell_group = Cell_group_w_epithelialcelltypes) %>%
+#   arrange(desc(Cell_group)) %>%
+#   dplyr::select(UMAP_1, UMAP_2, Cell_group)
+# plot_data_df <- rbind(plot_data_df[plot_data_df$Cell_group %in% c("Unknown", "Immune others"),], plot_data_df[!(plot_data_df$Cell_group %in% c("Unknown", "Immune others")),])
+# ## save source data
+# dir_out <- "../../plot_data/"; dir.create(dir_out)
+# write.table(x = plot_data_df, file = "../../plot_data/F1b.left.SourceData.tsv", quote = F, sep = "\t", row.names = F)
 
-# process data ------------------------------------------------------------
-plot_data_df <- plot_data_df %>%
-  mutate(Cell_group = Cell_group_w_epithelialcelltypes) %>%
-  arrange(desc(Cell_group))
-plot_data_df <- rbind(plot_data_df[plot_data_df$Cell_group %in% c("Unknown", "Immune others"),], plot_data_df[!(plot_data_df$Cell_group %in% c("Unknown", "Immune others")),])
+# input source data -------------------------------------------------------
+plot_data_df <- fread(data.table = F, input = "../../plot_data/F1b.left.SourceData.tsv")
 
 # make colors -------------------------------------------------------------
 colors_cellgroup <- c("#E7298A", "#E69F00", "#56B4E9", "#F0E442", "#D55E00", "#0072B2", "#FB9A99", "#B2DF8A", "#000000",
@@ -60,9 +67,8 @@ p <- p + theme(axis.text.x=element_blank(),
 p <- p + theme(axis.text.y=element_blank(),
                axis.ticks.y=element_blank())
 p <- p + theme(legend.position="bottom", aspect.ratio=1)
-
-#Print extended figure 2b
-dir_out <- paste0(dir_base, "outputs/"); dir.create(dir_out)
+## save plot
+dir_out <- "../../outputs/"; dir.create(dir_out)
 file2write <- paste0(dir_out,"F1b_UMAP_snRNA.pdf")
 pdf(file = file2write, width = 8, height = 9, useDingbats = F)
 print(p)

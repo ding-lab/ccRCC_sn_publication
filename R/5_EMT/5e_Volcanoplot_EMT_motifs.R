@@ -31,9 +31,48 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-dam_df <- fread(data.table = F, input = "../../data/MotifScore_difference.EpithelialSelectedClusters_vs_Mesenchymal.20210924.tsv.gz")
-tf2deg_df <- fread(data.table = F, input = "../../data/MotifsTF2Foldchange.snRNA.20210928.v1.tsv.gz")
+# make data for plotting --------------------------------------------------
+# ## input data
+# dam_df <- fread(data.table = F, input = "../../data/MotifScore_difference.EpithelialSelectedClusters_vs_Mesenchymal.20210924.tsv.gz")
+# tf2deg_df <- fread(data.table = F, input = "../../data/MotifsTF2Foldchange.snRNA.20210928.v1.tsv.gz")
+# ## format
+# plot_data_df <- dam_df %>%
+#   rename(TF = TF_Name) %>%
+#   mutate(Is_FOSJUN = grepl(pattern = "FOS|JUN", x = TF) | (TF %in% c("ATF2", "ATF7", "ATF3", "ATF4", "BACH2", "BACH1", "BACH2(var.2)", "NFE2", "MAF::NFE2", "NFE2L1")) | (TF %in% c("JDP2", "JDP2(var.2)"))) %>%
+#   mutate(Log10p_val_adj = -log10(x = FDR)) %>%
+#   mutate(diff_2_vs_1 = (-diff)) %>%
+#   mutate(x_plot = ifelse((-diff) < -1.5, -1.5,
+#                          ifelse((-diff) > 1.5, 1.5, -diff))) %>%
+#   arrange(desc(diff_2_vs_1))
+# plot_data_df$avg_log2FC.tf.snRNA <- mapvalues(x = plot_data_df$TF, from = tf2deg_df$TF_name, to = as.vector(tf2deg_df$avg_log2FC.tf))
+# plot_data_df$avg_log2FC.tf.snRNA[plot_data_df$avg_log2FC.tf.snRNA == plot_data_df$TF] <- NA
+# plot_data_df$avg_log2FC.tf.snRNA <- as.numeric(plot_data_df$avg_log2FC.tf.snRNA)
+# summary(plot_data_df$diff)
+# summary(plot_data_df$x_plot)
+# ## decide TFs to show
+# plot_text_right_df <- plot_data_df %>%
+#   filter(FDR < 0.05 & mean_score2 > 0 & !is.na(avg_log2FC.tf.snRNA) & avg_log2FC.tf.snRNA > 0.25 & !Is_FOSJUN & diff_2_vs_1 > 0)
+# tfs_right <- plot_text_right_df$TF
+# tfs_right <- c(tfs_right, "JUN", "TWIST1")
+# tfs_right
+# 
+# plot_text_left_df <- plot_data_df %>%
+#   filter(FDR < 0.05 & mean_score1 > 0 & !is.na(avg_log2FC.tf.snRNA) & avg_log2FC.tf.snRNA < -0.25 & diff_2_vs_1 < 0)
+# tfs_left <- plot_text_left_df$TF
+# ## cap y axis
+# y_cap <- max(plot_data_df$Log10p_val_adj[!is.infinite(plot_data_df$Log10p_val_adj)])
+# 
+# # label TFS to show
+# plot_data_df <- plot_data_df %>%
+#   mutate(y_plot = ifelse(Log10p_val_adj >= y_cap, y_cap, Log10p_val_adj)) %>%
+#   mutate(TF_modified = gsub(x = TF, pattern = "\\(var.2\\)|\\(var.3\\)", replacement = "*")) %>%
+#   mutate(text_TF = ifelse(TF %in% c(tfs_right, tfs_left), TF_modified, NA)) %>%
+#   select(x_plot, y_plot, text_TF)
+# ## write plot data
+# write.table(x = plot_data_df, file = "../../plot_data/F5e.SourceData.tsv", quote = F, sep = "\t", row.names = F)
+
+# input plot data ---------------------------------------------------------
+plot_data_df <- fread(data.table = F, input = "../../plot_data/F5e.SourceData.tsv")
 
 # set plotting parameters -------------------------------------------------
 ## set y bottom threshold
@@ -41,39 +80,6 @@ y_bottom <- -log10(0.05)
 ## colors
 color_right_deep <- RColorBrewer::brewer.pal(n = 12, name = "Set1")[1]
 color_left_deep <- RColorBrewer::brewer.pal(n = 6, name = "Set1")[2]
-
-# make data for plotting --------------------------------------------------
-plot_data_df <- dam_df %>%
-  rename(TF = TF_Name) %>%
-  mutate(Is_FOSJUN = grepl(pattern = "FOS|JUN", x = TF) | (TF %in% c("ATF2", "ATF7", "ATF3", "ATF4", "BACH2", "BACH1", "BACH2(var.2)", "NFE2", "MAF::NFE2", "NFE2L1")) | (TF %in% c("JDP2", "JDP2(var.2)"))) %>%
-  mutate(Log10p_val_adj = -log10(x = FDR)) %>%
-  mutate(diff_2_vs_1 = (-diff)) %>%
-  mutate(x_plot = ifelse((-diff) < -1.5, -1.5,
-                         ifelse((-diff) > 1.5, 1.5, -diff))) %>%
-  arrange(desc(diff_2_vs_1))
-plot_data_df$avg_log2FC.tf.snRNA <- mapvalues(x = plot_data_df$TF, from = tf2deg_df$TF_name, to = as.vector(tf2deg_df$avg_log2FC.tf))
-plot_data_df$avg_log2FC.tf.snRNA[plot_data_df$avg_log2FC.tf.snRNA == plot_data_df$TF] <- NA
-plot_data_df$avg_log2FC.tf.snRNA <- as.numeric(plot_data_df$avg_log2FC.tf.snRNA)
-summary(plot_data_df$diff)
-summary(plot_data_df$x_plot)
-## decide TFs to show
-plot_text_right_df <- plot_data_df %>%
-  filter(FDR < 0.05 & mean_score2 > 0 & !is.na(avg_log2FC.tf.snRNA) & avg_log2FC.tf.snRNA > 0.25 & !Is_FOSJUN & diff_2_vs_1 > 0)
-tfs_right <- plot_text_right_df$TF
-tfs_right <- c(tfs_right, "JUN", "TWIST1")
-tfs_right
-
-plot_text_left_df <- plot_data_df %>%
-  filter(FDR < 0.05 & mean_score1 > 0 & !is.na(avg_log2FC.tf.snRNA) & avg_log2FC.tf.snRNA < -0.25 & diff_2_vs_1 < 0)
-tfs_left <- plot_text_left_df$TF
-## cap y axis
-y_cap <- max(plot_data_df$Log10p_val_adj[!is.infinite(plot_data_df$Log10p_val_adj)])
-
-# label TFS to show
-plot_data_df <- plot_data_df %>%
-  mutate(y_plot = ifelse(Log10p_val_adj >= y_cap, y_cap, Log10p_val_adj)) %>%
-  mutate(TF_modified = gsub(x = TF, pattern = "\\(var.2\\)|\\(var.3\\)", replacement = "*")) %>%
-  mutate(text_TF = ifelse(TF %in% c(tfs_right, tfs_left), TF_modified, NA))
 
 # plot all markers--------------------------------------------------------------------
 ## plot
@@ -98,7 +104,7 @@ p <- p + theme(axis.text = element_text(size = 14, color = "black"),
 
 # write output ------------------------------------------------------------
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out, "F5e_Volcanoplot_EMT_motifs", ".pdf")
+file2write <- paste0(dir_out, "F5e.Volcanoplot.EMT_motifs", ".pdf")
 pdf(file2write, width = 6, height = 5, useDingbats = F)
 print(p)
 dev.off()

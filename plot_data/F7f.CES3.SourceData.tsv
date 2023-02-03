@@ -1,0 +1,3 @@
+ensembl_gene_id	entrezgene	external_gene_name	gene_biotype.1	transcript_count.1	description.1	gene_biotype.2	variable	value	parental_line	parental_line_text	BAP1_status	sample_text
+ENSG00000172828	23491	CES3	protein_coding	8	carboxylesterase 3 [Source:HGNC Symbol;Acc:HGNC:1865]	protein_coding	sample.skrc42.bap1_e1	5.45397892637682	skrc42	SKRC-42	BAP1 wt	BAP1
+ENSG00000172828	23491	CES3	protein_coding	8	carboxylesterase 3 [Source:HGNC Symbol;Acc:HGNC:1865]	protein_coding	sample.skrc42.emptyvector_e1	2.32060600248728	skrc42	SKRC-42	BAP1 null	control

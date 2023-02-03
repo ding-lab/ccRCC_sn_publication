@@ -31,22 +31,27 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-## input degs
-peaks2degs_df <- fread(data.table = F, input = "../../data/2EMTclusters_vs_5Epithelialclusters.DAP_overlaps_DEGs.20210927.v1.tsv.gz")
-
 # make plot data ----------------------------------------------------------
-plotdata_df <- peaks2degs_df %>%
-  filter(!is.na(avg_log2FC.snATAC) & !is.na(avg_log2FC.snRNA)) %>%
-  select(avg_log2FC.snATAC, avg_log2FC.snRNA, Gene, peak) %>%
-  unique()
-nrow(plotdata_df) ## 1096 gene-peak pairs
-length(unique(plotdata_df$Gene)) ## 1030 genes
-length(unique(plotdata_df$peak)) ## 1096 promoter peaks
+# ## input degs
+# peaks2degs_df <- fread(data.table = F, input = "../../data/2EMTclusters_vs_5Epithelialclusters.DAP_overlaps_DEGs.20210927.v1.tsv.gz")
+# ## format data
+# plotdata_df <- peaks2degs_df %>%
+#   filter(!is.na(avg_log2FC.snATAC) & !is.na(avg_log2FC.snRNA)) %>%
+#   dplyr::select(avg_log2FC.snATAC, avg_log2FC.snRNA, Gene, peak) %>%
+#   unique()
+# nrow(plotdata_df) ## 1096 gene-peak pairs
+# length(unique(plotdata_df$Gene)) ## 1030 genes
+# length(unique(plotdata_df$peak)) ## 1096 promoter peaks
+# plotdata_df <- plotdata_df %>%
+#   mutate(highlight = ((avg_log2FC.snATAC >= 1 & avg_log2FC.snRNA >= 1) | (avg_log2FC.snATAC <= -1 & avg_log2FC.snRNA <= -1) | (Gene %in% c("VIM", "FN1", "CDH2", "WNT5B")))) %>%
+#   select(avg_log2FC.snATAC, avg_log2FC.snRNA, highlight, Gene)
+# ## write plot data
+# write.table(x = plotdata_df, file = "../../plot_data/F5d.SourceData.tsv", quote = F, sep = "\t", row.names = F)
+
+# input plot data ---------------------------------------------------------
+plotdata_df <- fread(data.table = F, input = "../../plot_data/F5d.SourceData.tsv")
 
 # highlight genes with fold change > 1 ----------------------------------------------------
-plotdata_df <- plotdata_df %>%
-  mutate(highlight = ((avg_log2FC.snATAC >= 1 & avg_log2FC.snRNA >= 1) | (avg_log2FC.snATAC <= -1 & avg_log2FC.snRNA <= -1) | (Gene %in% c("VIM", "FN1", "CDH2", "WNT5B"))))
 p <- ggplot() + geom_point_rast(data = plotdata_df, 
                                 mapping = aes(x = avg_log2FC.snATAC, y = avg_log2FC.snRNA),
                                 alpha = 0.8, shape = 16, size = 1.5)
@@ -69,10 +74,11 @@ p <- p + theme(axis.text = element_text(size = 18, color = "black"),
 p <- p + ylim(c(-4, 4)) + xlim(c(-4, 4))
 p <- p + xlab("Log2(fold change of gene promoter accessiblity)")
 p <- p + ylab("Log2(fold change of gene expression)")
-
+test_result <- cor.test(plotdata_df$avg_log2FC.snATAC, plotdata_df$avg_log2FC.snRNA)
+test_result$p.value
 # write output ------------------------------------------------------------
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out, "F5d_Scatterplot_EMT_DAPs_overlap_DEGs", ".pdf")
+file2write <- paste0(dir_out, "F5d.Scatterplot.EMT_DAPs_overlap_DEGs", ".pdf")
 pdf(file2write, width = 5, height = 5, useDingbats = F)
 print(p)
 dev.off()

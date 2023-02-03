@@ -1,0 +1,5 @@
+external_gene_name	value	sample_text	sample_text2
+MXI1	0.203367784911734	rcc4_mxi1_c1	sh-MXI1-C1
+HK2	0.618290213354155	rcc4_mxi1_c1	sh-MXI1-C1
+MXI1	1	rcc4_scrambled	sh-NC
+HK2	1	rcc4_scrambled	sh-NC

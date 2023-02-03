@@ -30,19 +30,17 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-deg_df <- fread(data.table = F, input = "../../data/Inflammatory_score_top_vs_bottom_macrophages.logfcthreshold.0.minpct.0.1.mindiffpct.0.tsv.gz")
-
 # set plotting parameters -------------------------------------------------
-color_red <- RColorBrewer::brewer.pal(n = 4, name = "Set1")[1]
-color_blue <- RColorBrewer::brewer.pal(n = 4, name = "Set1")[2]
 p_val_adj_sig_cutoff <- 0.05
 genes_highlight <- c("LILRB1", "C1QB", "C1QC", "C1QA", "PDCD1LG2")
 
 # make data for plotting --------------------------------------------------
+## input data
+deg_df <- fread(data.table = F, input = "../../data/Inflammatory_score_top_vs_bottom_macrophages.logfcthreshold.0.minpct.0.1.mindiffpct.0.tsv.gz")
+## format text
 text_up <- paste0("Up (", length(which(deg_df$p_val_adj < 0.05 & deg_df$avg_log2FC > 0)), ")")
 text_down <- paste0("Down (", length(which(deg_df$p_val_adj < 0.05 & deg_df$avg_log2FC < 0)), ")")
-
+## format data
 plot_data_df <- deg_df %>%
   rename(genesymbol_deg = gene_symbol) %>%
   mutate(log10p_val_adj = -log10(p_val_adj)) %>%
@@ -55,15 +53,24 @@ plot_data_df <- plot_data_df %>%
   mutate(x_plot = avg_log2FC) %>%
   mutate(y_plot = ifelse(log10p_val_adj > 350, 350, log10p_val_adj)) %>%
   mutate(label_plot = ifelse(genesymbol_deg %in% genes_highlight,  genesymbol_deg, NA)) %>%
-  arrange(desc(foldchange_type))
-summary(plot_data_df$avg_log2FC[plot_data_df$p_val_adj < 0.05 & plot_data_df$avg_log2FC > 0])
+  arrange(desc(foldchange_type)) %>%
+  select(x_plot, y_plot, p_val_adj, avg_log2FC, foldchange_type, label_plot)
+## write plot data
+write.table(x = plot_data_df, file = "../../plot_data/F4i.SourceData.tsv", quote = F, sep = "\t", row.names = F)
+
+# input plot data ---------------------------------------------------------
+plot_data_df <- fread(data.table = F, input = "../../plot_data/F4i.SourceData.tsv")
+
+# plot all markers size not scaled--------------------------------------------------------------------
 x_pos_cutoff <- min(plot_data_df$avg_log2FC[plot_data_df$p_val_adj < 0.05 & plot_data_df$avg_log2FC > 0])
 x_neg_cutoff <- max(plot_data_df$avg_log2FC[plot_data_df$p_val_adj < 0.05 & plot_data_df$avg_log2FC < 0])
 ## make colors
+color_red <- RColorBrewer::brewer.pal(n = 4, name = "Set1")[1]
+color_blue <- RColorBrewer::brewer.pal(n = 4, name = "Set1")[2]
 colors_deg <- c(color_red, color_blue, "grey50")
-names(colors_deg) <- c(text_up, text_down, "insignificant")
-
-# plot all markers size not scaled--------------------------------------------------------------------
+names(colors_deg) <- c(unique(plot_data_df$foldchange_type[plot_data_df$p_val_adj < 0.05 & plot_data_df$avg_log2FC >0]), 
+                       unique(plot_data_df$foldchange_type[plot_data_df$p_val_adj < 0.05 & plot_data_df$avg_log2FC < 0]), 
+                       "insignificant")
 fontsize_plot <- 16
 ## plot
 p <- ggplot(data = plot_data_df, mapping = aes(x = x_plot, y = y_plot, color = foldchange_type, label = label_plot))
@@ -90,7 +97,7 @@ p <- p + theme(axis.text = element_text(size = fontsize_plot, color = "black"),
 
 # write output ------------------------------------------------------------
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out, "F4i_Volcanoplot_inflamm_vs_noninflamm_macrophages_degs", ".pdf")
+file2write <- paste0(dir_out, "F4i.Volcanoplot.inflamm_vs_noninflamm_macrophages_degs", ".pdf")
 pdf(file2write, width = 4.5, height = 4.25, useDingbats = F)
 print(p)
 dev.off()

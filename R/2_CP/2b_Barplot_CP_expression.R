@@ -27,15 +27,9 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-exp_df <- fread(input = "../../data/CPM.TMM_normalized.Manuscript_Cell_Lines.20220710.v1.tsv.gz", data.table = F)
-
 # specify parameters ------------------------------------------------------
-colnames_value <- colnames(exp_df)[grepl(pattern = "sample", x = colnames(exp_df))]
-exp_df <- as.data.table(exp_df)
 genes_plot <- c("CP")
 samples_plot <- c("caki_1_control_e1", "dr_caki_1_rna", "caki_1_cp_c2_e1", "caki_1_cp_c1_e1")
-sampletext_plot <- c("caki1_nt1", "caki1_nt2", "caki1_cp_c2", "caki1_cp_c1")
 sampletext_plot <- c("sh-NT1", "sh-NT2", "sh-CP-C2", "sh-CP-C1")
 
 # make colors -------------------------------------------------------------
@@ -44,19 +38,28 @@ color_cp <- RColorBrewer::brewer.pal(n = 6, name = "Set3")[5]
 colors_bysample <- c(color_nt, color_nt, color_cp, color_cp)
 names(colors_bysample) <- c("sh-NT1", "sh-NT2", "sh-CP-C2", "sh-CP-C1")
 
-# format expression data --------------------------------------------------
-plot_data_long_df <- exp_df %>%
-  filter(external_gene_name %in% genes_plot) %>%
-  melt.data.table(measure.vars = colnames_value) %>%
-  mutate(sample = gsub(x = variable, pattern = "sample\\.", replacement = "")) %>%
-  filter(sample %in% samples_plot)
-plot_data_long_df$sample_text <- mapvalues(x = plot_data_long_df$sample, from = samples_plot, to = sampletext_plot)
-plot_data_long_df$sample_text <- factor(x = plot_data_long_df$sample_text, levels = rev(sampletext_plot))
+# # make plot data --------------------------------------------------
+# ## input data
+# exp_df <- fread(input = "../../data/CPM.TMM_normalized.Manuscript_Cell_Lines.20220710.v1.tsv.gz", data.table = F)
+# ## format data
+# colnames_value <- colnames(exp_df)[grepl(pattern = "sample", x = colnames(exp_df))]
+# exp_df <- as.data.table(exp_df)
+# plot_data_df <- exp_df %>%
+#   filter(external_gene_name %in% genes_plot) %>%
+#   melt.data.table(measure.vars = colnames_value) %>%
+#   mutate(sample = gsub(x = variable, pattern = "sample\\.", replacement = "")) %>%
+#   filter(sample %in% samples_plot)
+# plot_data_df$sample_text <- mapvalues(x = plot_data_df$sample, from = samples_plot, to = sampletext_plot)
+# ## save plot data
+# write.table(x = plot_data_df, file = "../../plot_data/F2b.Barplot.SourceData.tsv", quote = F, sep = "\t", row.names = F)
 
+# input plot data ---------------------------------------------------------
+plot_data_df <- fread(data.table = F, input = "../../plot_data/F2b.Barplot.SourceData.tsv")
 
 # plot --------------------------------------------------------------------
+plot_data_df$sample_text <- factor(x = plot_data_df$sample_text, levels = rev(sampletext_plot))
 p <- ggplot()
-p <- p + geom_col(data = plot_data_long_df, mapping = aes(x = value, y = sample_text, fill = sample_text), position=position_dodge(), color = "black")
+p <- p + geom_col(data = plot_data_df, mapping = aes(x = value, y = sample_text, fill = sample_text), position=position_dodge(), color = "black")
 p <- p + scale_fill_manual(values = colors_bysample)
 p <- p + scale_x_continuous(breaks = seq(0, 12, 4), labels = seq(0, 12, 4))
 p <- p + theme_classic()
@@ -66,7 +69,7 @@ p <- p + theme(axis.title.y = element_blank(), axis.title.x = element_text(size 
                axis.ticks.y = element_blank(), legend.position = "none")
 ## save plot
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out,"F2b_Barplot_CP_Expression.pdf")
+file2write <- paste0(dir_out,"F2b.Barplot.CP_Expression.pdf")
 pdf(file2write, width = 2.5, height = 1.4, useDingbats = F)
 print(p)
 dev.off()

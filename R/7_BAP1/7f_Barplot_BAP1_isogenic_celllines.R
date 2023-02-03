@@ -31,17 +31,15 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-exp_df <- fread(input = "../../data/CPM.TMM_normalized.Manuscript_Cell_Lines.20220710.v1.tsv.gz", data.table = F)
-
 # preprocess --------------------------------------------------------------
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
 
 # plot ------------------------------------------------------
+exp_df <- fread(input = "../../data/CPM.TMM_normalized.Manuscript_Cell_Lines.20220710.v1.tsv.gz", data.table = F)
 for (gene_plot in c("BAP1", "CES3")) {
   # format expression data --------------------------------------------------
   colnames_id <- colnames(exp_df)[!grepl(x = colnames(exp_df), pattern = "sample")]
-  plot_data_long_df <- exp_df %>%
+  plot_data_df <- exp_df %>%
     filter(external_gene_name %in% gene_plot) %>%
     melt(id.vars = colnames_id) %>%
     # filter(variable %in% c("sample.786_o.sglacz_e1", "sample.786_o.sgbap1_e1", "sample.skrc42.bap1_e1", "sample.skrc42.emptyvector_e1")) %>%
@@ -49,17 +47,18 @@ for (gene_plot in c("BAP1", "CES3")) {
     mutate(parental_line = str_split_fixed(string = variable, pattern = "\\.", n = 3)[,2]) %>%
     mutate(parental_line_text = ifelse(parental_line == "786_o", "786-O", "SKRC-42")) %>%
     mutate(BAP1_status = ifelse(variable %in% c("sample.786_o.sgbap1_e1", "sample.skrc42.emptyvector_e1"), "BAP1 null", "BAP1 wt"))
-  plot_data_long_df$sample_text <- as.vector(plot_data_long_df$variable)
-  plot_data_long_df$sample_text[plot_data_long_df$sample_text == "sample.786_o.sgbap1_e1"] <- "sgBAP1"
-  plot_data_long_df$sample_text[plot_data_long_df$sample_text == "sample.786_o.sglacz_e1"] <- "sgLacZ"
-  plot_data_long_df$sample_text[plot_data_long_df$sample_text == "sample.skrc42.bap1_e1"] <- "BAP1"
-  plot_data_long_df$sample_text[plot_data_long_df$sample_text == "sample.skrc42.emptyvector_e1"] <- "control"
-  plot_data_long_df$sample_text <- factor(x = plot_data_long_df$sample_text, levels = c("sgLacZ", "sgBAP1", "BAP1", "control"))
+  plot_data_df$sample_text <- as.vector(plot_data_df$variable)
+  plot_data_df$sample_text[plot_data_df$sample_text == "sample.786_o.sgbap1_e1"] <- "sgBAP1"
+  plot_data_df$sample_text[plot_data_df$sample_text == "sample.786_o.sglacz_e1"] <- "sgLacZ"
+  plot_data_df$sample_text[plot_data_df$sample_text == "sample.skrc42.bap1_e1"] <- "BAP1"
+  plot_data_df$sample_text[plot_data_df$sample_text == "sample.skrc42.emptyvector_e1"] <- "control"
+  plot_data_df$sample_text <- factor(x = plot_data_df$sample_text, levels = c("sgLacZ", "sgBAP1", "BAP1", "control"))
+  ## write plot data
+  write.table(x = plot_data_df, file = paste0("../../plot_data/F7f.", gene_plot, ".SourceData.tsv"), quote = F, sep = "\t", row.names = F)
   
   # make barplot ------------------------------------------------------------
-  
   p <- ggplot()
-  p <- p + geom_col(data = plot_data_long_df, mapping = aes(x = sample_text, y = value, fill = BAP1_status), color = "black")
+  p <- p + geom_col(data = plot_data_df, mapping = aes(x = sample_text, y = value, fill = BAP1_status), color = "black")
   p <- p + theme_classic()
   p <- p + ylab(label = paste0(gene_plot, " expression (TPM)"))
   p <- p + theme(strip.background = element_rect(fill = NA, color = NA),
@@ -68,9 +67,8 @@ for (gene_plot in c("BAP1", "CES3")) {
   p <- p + theme(axis.title.x = element_blank(), axis.ticks.x = element_blank())
   
   # write output ------------------------------------------------------------
-  file2write <- paste0(dir_out, "F7f_Barplot_", gene_plot, "_expression", ".pdf")
+  file2write <- paste0(dir_out, "F7f.Barplot.", gene_plot, "_expression", ".pdf")
   pdf(file2write, width = 2.1, height = 2, useDingbats = F)
   print(p)
   dev.off()
-  
 }

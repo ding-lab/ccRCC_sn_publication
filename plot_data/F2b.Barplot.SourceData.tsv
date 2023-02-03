@@ -1,0 +1,5 @@
+ensembl_gene_id	entrezgene	external_gene_name	gene_biotype.1	transcript_count.1	description.1	gene_biotype.2	variable	value	sample	sample_text
+ENSG00000047457	1356	CP	protein_coding	15	ceruloplasmin [Source:HGNC Symbol;Acc:HGNC:2295]	protein_coding	sample.caki_1_cp_c2_e1	0.207335036502002	caki_1_cp_c2_e1	sh-CP-C2
+ENSG00000047457	1356	CP	protein_coding	15	ceruloplasmin [Source:HGNC Symbol;Acc:HGNC:2295]	protein_coding	sample.caki_1_cp_c1_e1	0	caki_1_cp_c1_e1	sh-CP-C1
+ENSG00000047457	1356	CP	protein_coding	15	ceruloplasmin [Source:HGNC Symbol;Acc:HGNC:2295]	protein_coding	sample.caki_1_control_e1	12.1032672544485	caki_1_control_e1	sh-NT1
+ENSG00000047457	1356	CP	protein_coding	15	ceruloplasmin [Source:HGNC Symbol;Acc:HGNC:2295]	protein_coding	sample.dr_caki_1_rna	10.8004309313785	dr_caki_1_rna	sh-NT2

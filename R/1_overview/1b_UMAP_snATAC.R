@@ -26,13 +26,20 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-plot_data_df <- fread(data.table = F, input = "../../data/snATAC.UMAPCoordinate.CellType.ByBarcode.tsv.gz")
+# make source data -------------------------------------------------------------------
+# ## input data
+# barcode_info_df <- fread(data.table = F, input = "../../data/snATAC.UMAPCoordinate.CellType.ByBarcode.tsv.gz")
+# ## format data
+# plot_data_df <- barcode_info_df %>%
+#   mutate(Cell_group = ifelse(cell_type %in% c("EMT tumor cells", "Tumor"), "Tumor cells",
+#                              ifelse(cell_type == "PT", "Proximal tubule", cell_type))) %>%
+#   dplyr::select(UMAP_1, UMAP_2, Cell_group)
+# ## save source data
+# dir_out <- "../../plot_data/"; dir.create(dir_out)
+# write.table(x = plot_data_df, file = "../../plot_data/F1b.right.SourceData.tsv", quote = F, sep = "\t", row.names = F)
 
-# process data ------------------------------------------------------------
-plot_data_df <- plot_data_df %>%
-  mutate(Cell_group = ifelse(cell_type %in% c("EMT tumor cells", "Tumor"), "Tumor cells",
-                             ifelse(cell_type == "PT", "Proximal tubule", cell_type)))
+# input source data  -------------------------------------------------------------
+plot_data_df <- fread(data.table = F, input = "../../plot_data/F1b.right.SourceData.tsv")
 
 # make colors -------------------------------------------------------------
 colors_cellgroup <- c("#E7298A", "#E69F00", "#56B4E9", "#F0E442", "#D55E00", "#0072B2", "#FB9A99", "#B2DF8A", "#000000",
@@ -59,9 +66,8 @@ p <- p + theme(axis.text.x=element_blank(),
 p <- p + theme(axis.text.y=element_blank(),
                axis.ticks.y=element_blank())
 p <- p + theme(legend.position="bottom", aspect.ratio=1)
-
-#Print extended figure 2b
-dir_out <- paste0(dir_base, "outputs/"); dir.create(dir_out)
+## save plot
+dir_out <- "../../outputs/"; dir.create(dir_out)
 file2write <- paste0(dir_out,"F1.UMAP.snATAC.pdf")
 pdf(file = file2write, width = 8, height = 9, useDingbats = F)
 print(p)

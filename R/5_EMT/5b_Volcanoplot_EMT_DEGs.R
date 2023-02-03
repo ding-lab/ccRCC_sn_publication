@@ -31,10 +31,6 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-## input degs
-deg_df <- fread(data.table = F, input = "../../data/Selected_2EMTclusters_vs_5Epithelialclusters.logfc.threshold0.min.pct0.1.min.diff.pct0.AssaySCT.tsv.gz")
-
 # set plotting parameters -------------------------------------------------
 genes_mesenchymal <- c("SERPINE1", "TGFBI", "VIM", "FN1", "WNT5B", "ITGA5", "JUN", "TWIST1")
 genes_epithelal <- c("LRP2", "ABI3BP", "PTGER3", "FRMD3", "SLC28A1", "SLC6A3", "EPB41LA4", "NFIB", "NFIA", "HNF4A", "HNF4G", "CIT")
@@ -47,25 +43,33 @@ colors_up_degs <- RColorBrewer::brewer.pal(n = 12, name = "Set1")[1]
 colors_down_degs <- RColorBrewer::brewer.pal(n = 6, name = "Set1")[2]
 
 # make data for plotting --------------------------------------------------
-plot_data_df <- deg_df %>%
-  dplyr::rename(genesymbol = genesymbol_deg) %>%
-  mutate(Log10p_val_adj = -log10(x = p_val_adj)) %>%
-  mutate(x_plot = ifelse(avg_log2FC < -3, -3,
-                         ifelse(avg_log2FC > 3, 3, avg_log2FC)))
-## cap y axis
-y_cap <- max(plot_data_df$Log10p_val_adj[!is.infinite(plot_data_df$Log10p_val_adj)])
-## set x limits to distinguish colors
-x_pos <- log2(1.2)
-x_neg <- -log2(1.2)
-x_pos <- quantile(x = plot_data_df$avg_log2FC, 0.925)
-x_neg <- quantile(x = plot_data_df$avg_log2FC, 0.025)
-plot_data_df <- plot_data_df %>%
-  mutate(y_plot = ifelse(Log10p_val_adj >= y_cap, y_cap, Log10p_val_adj)) %>%
-  
-  mutate(text_gene = ifelse((y_plot >= y_bottom) & ((genesymbol %in% genes_mesenchymal) & (x_plot >= x_pos)) | ((genesymbol %in% genes_epithelal) & (x_plot <= x_neg)), genesymbol, NA)) %>%
-  mutate(color_plot = ifelse(p_val_adj < 0.05, 
-                             ifelse(x_plot >= 0, "FDR<0.05 (up)", "FDR<0.05 (down)"), "FDR>=0.05")) %>%
-  arrange(factor(color_plot, levels = c("FDR>=0.05", "FDR<0.05 (up)", "FDR<0.05 (down)")))
+# ## input degs
+# deg_df <- fread(data.table = F, input = "../../data/Selected_2EMTclusters_vs_5Epithelialclusters.logfc.threshold0.min.pct0.1.min.diff.pct0.AssaySCT.tsv.gz")
+# plot_data_df <- deg_df %>%
+#   dplyr::rename(genesymbol = genesymbol_deg) %>%
+#   mutate(Log10p_val_adj = -log10(x = p_val_adj)) %>%
+#   mutate(x_plot = ifelse(avg_log2FC < -3, -3,
+#                          ifelse(avg_log2FC > 3, 3, avg_log2FC)))
+# ## cap y axis
+# y_cap <- max(plot_data_df$Log10p_val_adj[!is.infinite(plot_data_df$Log10p_val_adj)])
+# ## set x limits to distinguish colors
+# x_pos <- log2(1.2)
+# x_neg <- -log2(1.2)
+# x_pos <- quantile(x = plot_data_df$avg_log2FC, 0.925)
+# x_neg <- quantile(x = plot_data_df$avg_log2FC, 0.025)
+# plot_data_df <- plot_data_df %>%
+#   mutate(y_plot = ifelse(Log10p_val_adj >= y_cap, y_cap, Log10p_val_adj)) %>%
+#   
+#   mutate(text_gene = ifelse((y_plot >= y_bottom) & ((genesymbol %in% genes_mesenchymal) & (x_plot >= x_pos)) | ((genesymbol %in% genes_epithelal) & (x_plot <= x_neg)), genesymbol, NA)) %>%
+#   mutate(color_plot = ifelse(p_val_adj < 0.05, 
+#                              ifelse(x_plot >= 0, "FDR<0.05 (up)", "FDR<0.05 (down)"), "FDR>=0.05")) %>%
+#   arrange(factor(color_plot, levels = c("FDR>=0.05", "FDR<0.05 (up)", "FDR<0.05 (down)"))) %>%
+#   select(x_plot, y_plot, text_gene, color_plot)
+# ## write plot data
+# write.table(x = plot_data_df, file = "../../plot_data/F5b.SourceData.tsv", quote = F, sep = "\t", row.names = F)
+
+# input plot data ---------------------------------------------------------
+plot_data_df <- fread(data.table = F, input = "../../plot_data/F5b.SourceData.tsv")
 
 # plot--------------------------------------------------------------------
 p <- ggplot(data = plot_data_df, mapping = aes(x = x_plot, y = y_plot, label = text_gene, color = color_plot))
@@ -88,7 +92,7 @@ p <- p + theme(axis.text = element_text(size = 15, color = "black"),
 
 # write output ------------------------------------------------------------
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out, "F5b_Volcanoplot_EMT_DEGs", ".pdf")
+file2write <- paste0(dir_out, "F5b.Volcanoplot.EMT_DEGs", ".pdf")
 pdf(file2write, width = 6, height = 5, useDingbats = F)
 print(p)
 dev.off()

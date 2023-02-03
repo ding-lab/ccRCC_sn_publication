@@ -28,23 +28,21 @@ for (pkg_name_tmp in packages) {
   library(package = pkg_name_tmp, character.only = T)
 }
 
-
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-deg_df <- fread(data.table = F, input = "../../data/BAP1_snRNA_DEGs.CNVcorrected.20210913.v1.tsv.gz")
-
 # set plotting parameters -------------------------------------------------
-color_red <- RColorBrewer::brewer.pal(n = 4, name = "Set1")[1]
-color_blue <- RColorBrewer::brewer.pal(n = 4, name = "Set1")[2]
 genes_highlight <- c("DLC1", #paste0("ARHGAP", c(24, 28, 32, 42)),
                      "PTPRJ", "CDH16", "CPEB3", "NR6A1", "ZBTB16",
                      "CES3", "PDK4", "SERPINA1", "SLC5A1", "TGFBR3",
                      "RAPGEF5", "MAPK9", "EPHA6", "EFNA5")
 x_cutoff <- 2
 y_cutoff <- 350
+
 # make data for plotting --------------------------------------------------
+## input data
+deg_df <- fread(data.table = F, input = "../../data/BAP1_snRNA_DEGs.CNVcorrected.20210913.v1.tsv.gz")
+## format
 plot_data_df <- deg_df %>%
   filter(!is.na(FDR.snRNA.cnvcorrected)) %>%
   mutate(log10FDR = -log10(FDR.snRNA.cnvcorrected)) %>%
@@ -53,9 +51,14 @@ plot_data_df <- deg_df %>%
   mutate(x_plot = ifelse(avg_log2FC.snRNA < (-x_cutoff), -x_cutoff, ifelse(avg_log2FC.snRNA > x_cutoff, x_cutoff,  avg_log2FC.snRNA))) %>%
   mutate(y_plot = ifelse(log10FDR > y_cutoff, y_cutoff, log10FDR)) %>%
   mutate(label_plot = ifelse(genesymbol_deg %in% genes_highlight, genesymbol_deg, NA)) %>%
-  arrange(desc(foldchange_type))
-table(plot_data_df$foldchange_type)
+  arrange(desc(foldchange_type)) %>%
+  select(x_plot, y_plot, foldchange_type, label_plot)
+## write plot data
+write.table(x = plot_data_df, file = "../../plot_data/F7a.SourceData.tsv", quote = F, sep = "\t", row.names = F)
+
 # plot all markers, highlight specified genes--------------------------------------------------------------------
+color_red <- RColorBrewer::brewer.pal(n = 4, name = "Set1")[1]
+color_blue <- RColorBrewer::brewer.pal(n = 4, name = "Set1")[2]
 ## plot
 p <- ggplot(data = plot_data_df, mapping = aes(x = x_plot, y = y_plot,  color = foldchange_type, label = label_plot))
 p <- p + geom_vline(xintercept = 0, linetype = 2, color = "grey70")
@@ -86,7 +89,7 @@ p <- p + theme(axis.text = element_text(size = 15, color = "black"),
 
 # write output ------------------------------------------------------------
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out, "F7a_Volcanoplot_BAP1_DEgs", ".pdf")
+file2write <- paste0(dir_out, "F7a.Volcanoplot.BAP1_DEgs", ".pdf")
 pdf(file2write, width = 5.5, height = 6.5, useDingbats = F)
 print(p)
 dev.off()

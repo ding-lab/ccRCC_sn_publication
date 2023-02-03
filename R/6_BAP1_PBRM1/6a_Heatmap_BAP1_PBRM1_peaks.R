@@ -77,6 +77,8 @@ rownames_ordered <- c("C3L-00416-T2","C3L-00908-T1",
                       "C3L-00448-T1",  "C3L-00917-T1", "C3L-00088-T1", "C3L-00088-T2","C3L-00010-T1", "C3L-00026-T1", "C3N-00495-T1","C3L-00096-T1", 
                       "C3N-01200-N", "C3L-00088-N", "C3L-00079-N", "C3N-00242-N")
 plotdata_mat <- plotdata_mat[rownames_ordered,]
+## write plot data
+write.table(x = plotdata_mat, file = "../../plot_data/F6a.SourceData.tsv", quote = F, sep = "\t", row.names = T)
 
 # specify colors ----------------------------------------------------------
 ## specify color for NA values
@@ -174,7 +176,7 @@ p=ComplexHeatmap::Heatmap(matrix = plotdata_mat, col = colors_heatmapbody, name 
 
 # write output ------------------------------------------------------------
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out, "F6a_Heatmap_BAP1_PBRM1_peaks", ".pdf")
+file2write <- paste0(dir_out, "F6a.Heatmap.BAP1_PBRM1_peaks", ".pdf")
 pdf(file2write, width = 10, height=6.5, useDingbats = F)
 draw(object = p,
      annotation_legend_side = "bottom", annotation_legend_list = list_lgd)

@@ -27,23 +27,27 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-enricher_out_df <- fread(data.table = F, input = "../../data/ora.msigdb_h_cp.2caki1_cp_vs_2caki1_nt.20220525.v1.tsv.gz")
+# # make plot data ----------------------------------------------------------
+# ## input data
+# enricher_out_df <- fread(data.table = F, input = "../../data/ora.msigdb_h_cp.2caki1_cp_vs_2caki1_nt.20220525.v1.tsv.gz")
+# plotdata_df <- enricher_out_df %>%
+#   filter(Keep) %>%
+#   filter(test == "Caki1_cp_vs_nt.down") %>%
+#   mutate(size_plot = Count) %>%
+#   mutate(x_plot = GeneRatio_num*100) %>%
+#   mutate(log10FDR = -log10(p.adjust)) %>%
+#   mutate(y_plot = str_split_fixed(string = ID, pattern = "_", n = 2)[,2]) %>%
+#   mutate(y_plot = ifelse(y_plot == "EPITHELIAL_MESENCHYMAL_TRANSITION", "EMT", y_plot)) %>%
+#   arrange(x_plot) %>%
+#   select(x_plot, y_plot, size_plot, log10FDR)
+# ## save plot data
+# write.table(x = plotdata_df, file = "../../plot_data/F2d.SourceData.tsv", quote = F, sep = "\t", row.names = F)
 
-# make plot data ----------------------------------------------------------
-plotdata_df <- enricher_out_df %>%
-  filter(Keep) %>%
-  filter(test == "Caki1_cp_vs_nt.down") %>%
-  mutate(size_plot = Count) %>%
-  mutate(x_plot = GeneRatio_num*100) %>%
-  mutate(log10FDR = -log10(p.adjust)) %>%
-  mutate(y_plot = str_split_fixed(string = ID, pattern = "_", n = 2)[,2]) %>%
-  mutate(y_plot = ifelse(y_plot == "EPITHELIAL_MESENCHYMAL_TRANSITION", "EMT", y_plot))
-plotdata_df <- plotdata_df %>%
-  arrange(x_plot)
-plotdata_df$y_plot <- factor(x = plotdata_df$y_plot, levels = plotdata_df$y_plot)
+# input plot data ---------------------------------------------------------
+plotdata_df <- fread(data.table = F, input = "../../plot_data/F2d.SourceData.tsv")
 
 # plot enrichment map -----------------------------------------------------
+plotdata_df$y_plot <- factor(x = plotdata_df$y_plot, levels = plotdata_df$y_plot)
 p <- ggplot()
 p <- p + geom_point(data = plotdata_df, mapping = aes(x = x_plot, y = y_plot, size = size_plot, color = log10FDR))
 # p <- p + scale_color_gradientn(colors = c("blue", "purple", "red"))
@@ -64,7 +68,7 @@ p <- p + theme(axis.text = element_text(color = "black", size = 15),
 # write output ------------------------------------------------------------
 ## save plot
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out,"F2d_Dotplot_down_DEGs_shCP_vs_shNT_ORA.pdf")
+file2write <- paste0(dir_out,"F2d.Dotplot.down_DEGs_shCP_vs_shNT_ORA.pdf")
 pdf(file2write, width = 6.25, height = 2, useDingbats = F)
 print(p)
 dev.off()

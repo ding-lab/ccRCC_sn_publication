@@ -70,6 +70,9 @@ daps_bed2 <- daps_df %>%
   mutate(value = ifelse(avg_log2FC > 1.5, 1.5, avg_log2FC)) %>%
   select(chr, start, end, value)
 daps_bed_list = list(daps_bed1, daps_bed2)
+## write plot data
+write.table(x = daps_bed1, file = "../../plot_data/F6b.snATAC.Down.SourceData.tsv", quote = F, sep = "\t", row.names = F)
+write.table(x = daps_bed2, file = "../../plot_data/F6b.snATAC.Up.SourceData.tsv", quote = F, sep = "\t", row.names = F)
 
 # prepare plot data for snRNA DEGs-------------------------------------------------------
 degs_snrna_bed1 <- degs_df %>%
@@ -95,6 +98,9 @@ degs_snrna_bed2 <- degs_df %>%
   rename(value = avg_log2FC.snRNA) %>%
   select(chr, start, end, value)
 degs_snrna_bed_list = list(degs_snrna_bed1, degs_snrna_bed2)
+## write plot data
+write.table(x = degs_snrna_bed1, file = "../../plot_data/F6b.snRNA.Down.SourceData.tsv", quote = F, sep = "\t", row.names = F)
+write.table(x = degs_snrna_bed2, file = "../../plot_data/F6b.snRNA.Up.SourceData.tsv", quote = F, sep = "\t", row.names = F)
 
 # prepare plot data for bulk protein-------------------------------------------------------
 deps_bed1 <- degs_df %>%
@@ -116,6 +122,9 @@ deps_bed2 <- degs_df %>%
   mutate(value = ifelse(meddiff_exp.bulkpro > 0.5, 0.5, meddiff_exp.bulkpro)) %>%
   select(chr, start, end, value, genesymbol_deg)
 deps_bed_list = list(deps_bed1, deps_bed2)
+## write plot data
+write.table(x = deps_bed1, file = "../../plot_data/F6b.Protein.Down.SourceData.tsv", quote = F, sep = "\t", row.names = F)
+write.table(x = deps_bed2, file = "../../plot_data/F6b.Protein.Up.SourceData.tsv", quote = F, sep = "\t", row.names = F)
 
 # prepare plot data for bulk RNA-------------------------------------------------------
 degs_bulkrna_bed1 <- degs_df %>%
@@ -137,6 +146,9 @@ degs_bulkrna_bed2 <- degs_df %>%
   mutate(value = ifelse(logFC.bulkRNA > 5, 5, logFC.bulkRNA)) %>%
   select(chr, start, end, value, genesymbol_deg)
 degs_bulkrna_bed_list = list(degs_bulkrna_bed1, degs_bulkrna_bed2)
+## write plot data
+write.table(x = degs_bulkrna_bed1, file = "../../plot_data/F6b.bulkRNA.Down.SourceData.tsv", quote = F, sep = "\t", row.names = F)
+write.table(x = degs_bulkrna_bed2, file = "../../plot_data/F6b.bulkRNA.Up.SourceData.tsv", quote = F, sep = "\t", row.names = F)
 
 # prepare plot data for highlighting genes-------------------------------------------------------
 genes_highlight <- dap2deg_df %>%

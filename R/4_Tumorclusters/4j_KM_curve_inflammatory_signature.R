@@ -29,37 +29,36 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-## input scores
-exp_df <- fread(data.table = F, input = "../../data/tumorcell_intrinsic_inflammation_signature_scores.20220615.v1.tsv.gz")
-## input survival ddata
-survival_df <- fread(data.table = F, input = "../../data/CPTAC_Discovery_ccRCC_Survival_Time20220317.v1.tsv.gz")
-
-# set paramters -----------------------------------------------------------
-fontsize_plot = 14
-
 # preprocess ------------------------------------------------------
-testdata_df <- merge(x = exp_df, y = survival_df, by.x = "case", by.y = c("CASE_ID"), all.x = T)
-testdata_df <- testdata_df %>%
-  mutate(Expression = tumorcellintrinsic_inflamm_score)
-cutoff_exp_low <- quantile(x = testdata_df$Expression, probs = 0.25, na.rm = T); cutoff_exp_low
-cutoff_exp_high <- quantile(x = testdata_df$Expression, probs = 0.75, na.rm = T); cutoff_exp_high
-testdata_df <- testdata_df %>%
-  mutate(Expression_group = ifelse(Expression <= cutoff_exp_low, "Low", ifelse(Expression >= cutoff_exp_high, "High", "Medium")))
-table(testdata_df$Expression_group)
+# ## input scores
+# exp_df <- fread(data.table = F, input = "../../data/tumorcell_intrinsic_inflammation_signature_scores.20220615.v1.tsv.gz")
+# ## input survival ddata
+# survival_df <- fread(data.table = F, input = "../../data/CPTAC_Discovery_ccRCC_Survival_Time20220317.v1.tsv.gz")
+# ## merge
+# testdata_df <- merge(x = exp_df, y = survival_df, by.x = "case", by.y = c("CASE_ID"), all.x = T)
+# testdata_df <- testdata_df %>%
+#   mutate(Expression = tumorcellintrinsic_inflamm_score)
+# cutoff_exp_low <- quantile(x = testdata_df$Expression, probs = 0.25, na.rm = T); cutoff_exp_low
+# cutoff_exp_high <- quantile(x = testdata_df$Expression, probs = 0.75, na.rm = T); cutoff_exp_high
+# testdata_df <- testdata_df %>%
+#   mutate(Expression_group = ifelse(Expression <= cutoff_exp_low, "Low", ifelse(Expression >= cutoff_exp_high, "High", "Medium")))
+# plot_data_df <- testdata_df %>%
+#   mutate(surv_time = (OS_time + 9)/365)  %>%
+#   mutate(surv_status = ifelse(OS_status == "censored", 1, 2)) %>%
+#   filter(!is.na(surv_status) & !is.na(surv_time) & !is.na(Expression_group)) %>%
+#   filter(Expression_group != "Medium")
+# ## write plot data
+# write.table(x = plot_data_df, file = "../../plot_data/F4j.SourceData.tsv", quote = F, sep = "\t", row.names = )
+
+
+# input plot data ---------------------------------------------------------
+plot_data_df <- fread(data.table = F, input = "../../plot_data/F4j.SourceData.tsv")
 
 # test overall survival ---------------------------------------------------
-## EFS_censor == 0 with event; == 1 without event
-## test
-testdata_comp_df <- testdata_df %>%
-  mutate(surv_time = (OS_time + 9)/365)  %>%
-  mutate(surv_status = ifelse(OS_status == "censored", 1, 2)) %>%
-  filter(!is.na(surv_status) & !is.na(surv_time) & !is.na(Expression_group)) %>%
-  filter(Expression_group != "Medium")
-fit_efs <- survfit(Surv(surv_time, surv_status) ~ Expression_group, data = testdata_comp_df)
-
+fit_efs <- survfit(Surv(surv_time, surv_status) ~ Expression_group, data = plot_data_df)
+fontsize_plot = 14
 res <- ggsurvplot(fit_efs,
-                  data = testdata_comp_df,
+                  data = plot_data_df,
                   conf.int = TRUE,
                   surv.median.line = "hv", pval = TRUE,
                   legend.title = paste0("tumor-cell-intrinsic\ninflammation score\n(mRNA)"),
@@ -86,7 +85,7 @@ res$table <- res$table + theme(axis.line = element_blank())
 
 # write output ------------------------------------------------------------
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out, "F4j_KM_curve_inflammatory_signature", ".pdf")
+file2write <- paste0(dir_out, "F4j.KM_curve.inflammatory_signature", ".pdf")
 pdf(file2write, width = 3.25, height = 5, useDingbats = F)
 print(res)
 dev.off()

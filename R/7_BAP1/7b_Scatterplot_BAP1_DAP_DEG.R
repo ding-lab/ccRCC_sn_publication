@@ -29,26 +29,30 @@ for (pkg_name_tmp in packages) {
   library(package = pkg_name_tmp, character.only = T)
 }
 
-
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-peaks2degs_df <- fread(data.table = F, input = "../../data/BAP1_vs_NonMutant_DAP2DEG.20211011.v1.tsv.gz")
-
 # make plot data ----------------------------------------------------------
-plotdata_df <- peaks2degs_df %>%
-  filter(!is.na(avg_log2FC.snATAC) & !is.na(avg_log2FC.snRNA)) %>%
-  select(avg_log2FC.snATAC, avg_log2FC.snRNA, Gene, peak2gene_type) %>%
-  unique()
+# ## input data
+# peaks2degs_df <- fread(data.table = F, input = "../../data/BAP1_vs_NonMutant_DAP2DEG.20211011.v1.tsv.gz")
+# ## format data
+# plotdata_df <- peaks2degs_df %>%
+#   filter(!is.na(avg_log2FC.snATAC) & !is.na(avg_log2FC.snRNA)) %>%
+#   dplyr::select(avg_log2FC.snATAC, avg_log2FC.snRNA, Gene, peak2gene_type) %>%
+#   unique()
+# plotdata_df <- plotdata_df %>%
+#   mutate(highlight = (Gene %in% c("PTPRJ", "DLC1", "DDIT4", "PEBP1")  | (Gene %in% c("SLC38A1", "RAPGEF5", "EPHA6", "DUSP1", "FABP6") & avg_log2FC.snATAC > 0) | (Gene == "CES3" & avg_log2FC.snATAC < -1.5))) %>%
+#   select(avg_log2FC.snATAC, avg_log2FC.snRNA, peak2gene_type, Gene, highlight)
+# ## write plot data
+# write.table(x = plotdata_df, file = "../../plot_data/F7b.SourceData.tsv", quote = F, sep = "\t", row.names = F)
+
+# input plot data ---------------------------------------------------------
+plotdata_df <- fread(data.table = F, input = "../../plot_data/F7b.SourceData.tsv")
+
+# plot highlight genes ----------------------------------------------------
 ## make colors
 colors_peak2genetype <- brewer.pal(n = 7, name = "Dark2")[c(4, 6)]
 names(colors_peak2genetype) <- c("Promoter", "Enhancer")
-
-# plot highlight genes ----------------------------------------------------
-plotdata_df <- plotdata_df %>%
-  mutate(highlight = (Gene %in% c("PTPRJ", "DLC1", "DDIT4", "PEBP1")  | (Gene %in% c("SLC38A1", "RAPGEF5", "EPHA6", "DUSP1", "FABP6") & avg_log2FC.snATAC > 0) | (Gene == "CES3" & avg_log2FC.snATAC < -1.5)))
-
 p <- ggscatter(data = plotdata_df, x = "avg_log2FC.snATAC", y = "avg_log2FC.snRNA", color = "peak2gene_type", alpha = 0.8, shape = 16, size = 2.5,
                add = "reg.line", add.params = list(color = "grey50", linetype = 2), # Customize reg. line
                conf.int = F # Add confidence interval
@@ -65,10 +69,12 @@ p <- p + guides(color = guide_legend(nrow = 1, override.aes = aes(size = 3), lab
 p <- p + theme(axis.text = element_text(size = 18, color = "black"),
                axis.title = element_text(size = 14),
                legend.position = "bottom", legend.box = "horizontal")
+test_result <- cor.test(plotdata_df$avg_log2FC.snATAC, plotdata_df$avg_log2FC.snRNA)
+test_result$p.value
 
 # write output ------------------------------------------------------------
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out, "F7a_Volcanoplot_BAP1_DEgs", ".pdf")
+file2write <- paste0(dir_out, "F7a.Volcanoplot.BAP1_DEgs", ".pdf")
 pdf(file2write, width = 5.5, height = 6, useDingbats = F)
 print(p)
 dev.off()

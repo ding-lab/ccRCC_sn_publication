@@ -82,6 +82,8 @@ colnames_plot <- colnames(plot_data_mat)
 clusternames_column <- gsub(x = colnames_plot, pattern = "\\.", replacement = "-")
 sampleids_column <- str_split_fixed(string = clusternames_column, pattern = "_", n = 2)[,1]
 caseids_column <- clustername_df$case
+## write source data
+write.table(x = plot_data_mat, file = "../../plot_data/F4f.SourceData.tsv", quote = F, sep = "\t", row.names = T)
 
 # specify colors ----------------------------------------------------------
 ## specify color for NA values

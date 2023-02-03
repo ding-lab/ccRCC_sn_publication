@@ -13,7 +13,8 @@ packages = c(
   "dplyr",
   "ggplot2",
   "RColorBrewer",
-  "ggrastr"
+  "ggrastr",
+  "Polychrome"
 )
 for (pkg_name_tmp in packages) {
   if (!(pkg_name_tmp %in% installed.packages()[,1])) {
@@ -29,21 +30,21 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-## barcode-UMAP info for tumor clusters
-barcode2umap_df <- fread(data.table = F, input = "../../data/MetaData_TumorCellOnlyReclustered.20210805.v1.tsv.gz")
-## barcode to tumor subcluster assignment
-barcode2tumorsubcluster_df <- fread(input = "../../data/Barcode2TumorSubclusterId.20210805.v1.tsv.gz", data.table = F)
-## scrublet information
-barcode2scrublet_df <- fread(input = "../../data/scrublet.united_outputs.20210729.v1.tsv.gz", data.table = F)
+# pre-process  -------------------------------------------------------------------
+# ## barcode-UMAP info for tumor clusters
+# barcode2umap_df <- fread(data.table = F, input = "../../data/MetaData_TumorCellOnlyReclustered.20210805.v1.tsv.gz")
+# ## barcode to tumor subcluster assignment
+# barcode2tumorsubcluster_df <- fread(input = "../../data/Barcode2TumorSubclusterId.20210805.v1.tsv.gz", data.table = F)
+# ## scrublet information
+# barcode2scrublet_df <- fread(input = "../../data/scrublet.united_outputs.20210729.v1.tsv.gz", data.table = F)
+# ## merge data
+# barcode2umap_df <- merge(x = barcode2umap_df, y = barcode2tumorsubcluster_df, 
+#                          by.x = c("easy_id", "barcode_tumorcellreclustered"),
+#                          by.y = c("easy_id", "barcode"),
+#                          all.x = T)
+# barcode2umap_df <- barcode2umap_df %>%
+#   filter(easy_id != "C3L-00359-T1")
 
-# merge data --------------------------------------------------------------
-barcode2umap_df <- merge(x = barcode2umap_df, y = barcode2tumorsubcluster_df, 
-                         by.x = c("easy_id", "barcode_tumorcellreclustered"),
-                         by.y = c("easy_id", "barcode"),
-                         all.x = T)
-barcode2umap_df <- barcode2umap_df %>%
-  filter(easy_id != "C3L-00359-T1")
 
 # plot by each sample ----------------------------------------------------
 ## make different output files
@@ -52,24 +53,31 @@ dir_out_now <- paste0(dir_out, "F4b_UMAP_tumorclusters", "/")
 dir.create(dir_out_now)
 colors_all <- Polychrome::dark.colors(n = 24)
 
-# for (easy_id_tmp in "C3L-00010-T1") {
-for (easy_id_tmp in unique(barcode2umap_df$easy_id)) {
-  scrublets_df <- barcode2scrublet_df %>%
-    filter(Aliquot_WU == easy_id_tmp) %>%
-    filter(predicted_doublet)
-  barcodes_doublet <- scrublets_df$Barcode; length(barcodes_doublet)
+for (easy_id_tmp in c("C3L-00010-T1", "C3L-00096-T1", "C3L-00079-T1", "C3L-00583-T1")) {
+# for (easy_id_tmp in unique(barcode2umap_df$easy_id)) {
+  # ## make plot data
+  # scrublets_df <- barcode2scrublet_df %>%
+  #   filter(Aliquot_WU == easy_id_tmp) %>%
+  #   filter(predicted_doublet)
+  # barcodes_doublet <- scrublets_df$Barcode; length(barcodes_doublet)
+  # 
+  # plot_data_df <- barcode2umap_df %>%
+  #   filter(easy_id == easy_id_tmp) %>%
+  #   filter(!(barcode_tumorcellreclustered %in% barcodes_doublet)) %>%
+  #   mutate(Name_TumorCluster = paste0("C", id_manual_cluster_w0+1))
+  # cellnumber_percluster_df <- plot_data_df %>%
+  #   select(Name_TumorCluster) %>%
+  #   table() %>%
+  #   as.data.frame() %>%
+  #   rename(Name_TumorCluster = ".")
+  # plot_data_df <- plot_data_df %>%
+  #   mutate(Name_TumorCluster = ifelse(Name_TumorCluster == "CNA" | Name_TumorCluster %in% cellnumber_percluster_df$Name_TumorCluster[cellnumber_percluster_df$Freq < 50], "Minor cluster (<50 cells)", Name_TumorCluster)) %>%
+  #   select(UMAP_1, UMAP_2, Name_TumorCluster)
+  # ## save plot data
+  # write.table(x = plot_data_df, file = paste0("../../plot_data/F4b.", easy_id_tmp, ".SourceData.tsv"), quote = F, sep = "\t", row.names = F)
   
-  plot_data_df <- barcode2umap_df %>%
-    filter(easy_id == easy_id_tmp) %>%
-    filter(!(barcode_tumorcellreclustered %in% barcodes_doublet)) %>%
-    mutate(Name_TumorCluster = paste0("C", id_manual_cluster_w0+1))
-  cellnumber_percluster_df <- plot_data_df %>%
-    select(Name_TumorCluster) %>%
-    table() %>%
-    as.data.frame() %>%
-    rename(Name_TumorCluster = ".")
-  plot_data_df <- plot_data_df %>%
-    mutate(Name_TumorCluster = ifelse(Name_TumorCluster == "CNA" | Name_TumorCluster %in% cellnumber_percluster_df$Name_TumorCluster[cellnumber_percluster_df$Freq < 50], "Minor cluster (<50 cells)", Name_TumorCluster))
+  ## input plot data
+  plot_data_df <- fread(data.table = F, file = paste0("../../plot_data/F4b.", easy_id_tmp, ".SourceData.tsv"))
   
   ## make color for each cluster
   names_cluster_tmp <- sort(unique(plot_data_df$Name_TumorCluster))

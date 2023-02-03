@@ -28,15 +28,22 @@ for (pkg_name_tmp in packages) {
 ## set working directory to current file location
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# input -------------------------------------------------------------------
-clusters_selected_df <- fread(data.table = F, input = "../../data/intrapatient_tumorclusters.selected.20220706.v1.tsv")
+# make plotting data -------------------------------------------------------------------
+# ## input data
+# clusters_selected_df <- fread(data.table = F, input = "../../data/intrapatient_tumorclusters.selected.20220706.v1.tsv")
+# ## make plottting data
+# plot_data_df <- clusters_selected_df %>%
+#   group_by(sampleid) %>%
+#   summarise(Freq = n())
+# ## save plot data
+# write.table(x = plot_data_df, file = "../../plot_data/F4a.SourceData.tsv", quote = F, sep = "\t", row.names = F)
+
+
+# input plot data ---------------------------------------------------------
+plot_data_df <- fread(data.table = F, input = "../../plot_data/F4a.SourceData.tsv")
 
 # plot by sample --------------------------------------------------------------------
-plot_data_df <- clusters_selected_df %>%
-  group_by(sampleid) %>%
-  summarise(Freq = n())
 ## make color
-RColorBrewer::display.brewer.all()
 p <- ggplot(data = plot_data_df, mapping = aes(x = Freq))
 p <- p + geom_histogram(color="black",  binwidth = 1, fill = RColorBrewer::brewer.pal(n = 3, name = "Accent")[1])
 p <- p + scale_x_continuous(breaks = 1:10)
@@ -49,7 +56,7 @@ p <- p + theme(axis.text.y = element_text(size = 15, color = "black"),
 
 # save output -------------------------------------------------------------
 dir_out <- paste0("../../outputs/"); dir.create(dir_out)
-file2write <- paste0(dir_out,"F4a_Histogram_number_tumorclusters", ".pdf")
+file2write <- paste0(dir_out,"F4a.Histogram.number_tumorclusters", ".pdf")
 pdf(file = file2write, width = 4, height = 3, useDingbats = F)
 print(p)
 dev.off()
