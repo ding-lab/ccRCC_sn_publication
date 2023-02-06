@@ -29,12 +29,15 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # get all file names ------------------------------------------------------
 library(xlsx)
-xlsx_filename <- "../../../202301_Nat_Comm/Source_Data/Source_Data.nonWB.020223.xlsx"
-filenames_process <- list.files(path = "../../plot_data/")
+# xlsx_filename <- "../../../202301_Nat_Comm/Source_Data/Source_Data.nonWB.020223.xlsx"
+xlsx_filename <- "~/Documents/Project/ccRCC_snRNA/Source_Data/Source_Data.nonWB.020423.xlsx"
+dir_sourcedatafiles <- "~/Documents/Project/ccRCC_snRNA/Source_Data/Individual_Source_Data/"
+# filenames_process <- list.files(path = "../../plot_data/")
+filenames_process <- list.files(path = dir_sourcedatafiles)
 # Create a blank workbook
 OUT <- createWorkbook()
 for (filename_tmp in filenames_process) {
-  dataframe_tmp <- fread(data.table = F, input = paste0("../../plot_data/", filename_tmp))
+  dataframe_tmp <- fread(data.table = F, input = paste0(dir_sourcedatafiles, filename_tmp))
   sheetname_tmp <- gsub(x = filename_tmp, pattern = "\\.SourceData\\.tsv", replacement = "")
   
   # Add some sheets to the workbook
